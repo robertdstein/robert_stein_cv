@@ -1,0 +1,624 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Plasmati Graduate CV
+% LaTeX Template
+% Version 1.0 (24/3/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Author: FEDERICA BRADASCIO
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[a4paper,10pt]{article} % Default font size and paper size
+
+%\usepackage{fontspec} % For loading fonts
+%\defaultfontfeatures{Mapping=tex-text}
+%\setmainfont[SmallCapsFont = Fontin SmallCaps]{Fontin} % Main document font
+
+\usepackage{xunicode,xltxtra,url,parskip} % Formatting packages
+
+\usepackage[usenames,dvipsnames]{xcolor} % Required for specifying custom colors
+
+\usepackage[big]{layaureo} % Margin formatting of the A4 page, an alternative to layaureo can be \usepackage{fullpage}
+% To reduce the height of the top margin uncomment: \addtolength{\voffset}{-1.3cm}
+
+\usepackage{hyperref} % Required for adding links	and customizing them
+\definecolor{linkcolour}{rgb}{0,0.2,0.6} % Link color
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,citecolor=linkcolour,linkcolor=linkcolour} % Set link colors throughout the document
+%\hypersetup{citecolor=blue, filecolor=blue,linkcolor=blue, urlcolor=blue}
+
+%multi-row
+\usepackage{multirow}
+\usepackage{booktabs}
+\usepackage{longtable}
+
+\usepackage{titlesec} % Used to customize the \section command
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule] % Text formatting of sections
+\titlespacing{\section}{0pt}{3pt}{3pt} % Spacing around sections
+
+
+% Pié di pagina fisso
+\usepackage{lastpage}
+%\cfoot{\thepage\ di \pageref{LastPage}}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\lhead{}                %intestazione sinistra
+\chead{}               %intestazione centrale
+\rhead{} 			%intestazione destra
+\lfoot{Curriculum Vit\ae \ of \textsc{Robert Stein}} %pié di pagina sinistro
+\cfoot{} %pié di pagina centrale 
+%\rfoot{\\thepage~/ \pageref{LastPage}} %pié di pagina destro
+\renewcommand{\headrulewidth}{0pt} %linea separazione intestazione
+\renewcommand{\footrulewidth}{0.5pt} %linea separazione pié di pagina
+\fancyfoot[LE,RO]{\thepage~/ \pageref{LastPage}}%
+
+\usepackage{array}
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+
+\renewcommand{\refname}{Publications}% changes default name Bibliography to References
+
+
+\begin{document}
+
+%\pagestyle{empty} % Removes page numbering
+
+%\parpic[r]{\includegraphics[width=0.27\textwidth]{FB_picture.pdf}}
+\font\fb=''[cmr10]'' % Change the font of the \LaTeX command under the skills section
+
+
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+%\par{\centering \includegraphics[width=0.25\textwidth]{FB_picture4.png} \qquad {\Huge Federica \textsc{Bradascio}}\bigskip\par}
+\par{\centering \qquad {\Huge Robert \textsc{Stein}}\bigskip\par}
+
+\section{Personal Data}
+
+\begin{tabular}{rl}
+\textsc{Place and Date of Birth:} & London  | 10 June 1995 \\
+%\textsc{Address:} & Eichbuschallee 51, Berlin, Germany\\
+\textsc{Nationality:} & British \& Irish\\
+\textsc{Email:} & \href{mailto:robert.stein@desy.de}{robert.stein@desy.de} \\
+\textsc{Website:} & \href{https://robertdstein.github.io}{robertdstein.github.io} \\
+\end{tabular}
+
+\bigskip
+%----------------------------------------------------------------------------------------
+%	RESEARCH
+%----------------------------------------------------------------------------------------
+\section{Research}
+\begin{longtable}{r| p{108mm}}	
+
+\textsc{1 July. 2017 -- present}& {\parbox{110mm}{\rule{0pt}{2pt}PhD student in Multi-Messenger Astronomy, \textbf{DESY Zeuthen}}}\\
+& {\parbox{108mm}{\rule{0pt}{2pt}\small{I am involved in the search of the sources of high-energy neutrinos. }}}\\
+\multicolumn{2}{c}{} \\
+
+\textsc{Nov. 2015 -- July 2016} & \parbox{108mm}{\rule{0pt}{2pt}Master's Thesis in Astroparticle Physics, \textbf{University of Hamburg}}\\
+&{\parbox{108mm}{\rule{0pt}{2pt}\small{Research for my Master's Thesis, titled ``\emph{\href{https://robertdstein.github.io/documents/robert_stein_master_thesis.pdf}{Reconstruction of Charge Number of Heavy Cosmic Rays using Cherenkov Light}}", was conducted in the Astroparticle Physics group of the Univerity of Hamburg as part of an academic exchange.}}}\\
+&\small{Research Advisor:} \normalsize \textsc{D. Horns}\\
+\multicolumn{2}{c}{} \\
+\end{longtable}
+
+%\bigskip
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+%\section{Academic Career}
+
+\begin{longtable}{r| p{108mm}}	
+
+%\textsc{1 Sep. 2016 - today}& {\parbox{110mm}{\rule{0pt}{2pt}Member of the IceCube Collaboration}}\\
+%\multicolumn{2}{c}{} \\
+
+\textsc{July. 2017 -- present}& {\parbox{108mm}{\rule{0pt}{2pt}PhD in \textsc{}\textsc{Experimental Physics},}}\\
+& \normalsize\textbf{Humboldt University of Berlin}\\
+\multicolumn{2}{c}{} \\
+
+\textsc{Sep. 2013 -- June 2017}& {\parbox{108mm}{\rule{0pt}{2pt}MSci in \textsc{}\textsc{Physics with a Year In Europe},}}\\
+& \normalsize\textbf{Imperial College London}\\
+& {\parbox{108mm}{\rule{0pt}{2pt}\normalsize{Graduated with First Class Honours}}}\\
+\multicolumn{2}{c}{} \\
+%------------------------------------------------
+\end{longtable}
+
+
+\bigskip
+
+%----------------------------------------------------------------------------------------
+%	TEACHING
+%----------------------------------------------------------------------------------------
+\section{Teaching and Student Supervision}
+%\begin{longtable}{r | p{108mm}}	
+\begin{longtable}{R{28mm}|p{108mm}}
+\textsc{Oct. 2019 -- Present}& {\parbox{108mm}{\rule{0pt}{2pt} Supervision of MSc student:  \textsc{J. Necker}}}\\
+&  \normalsize\emph{Search for high-energy neutrinos from core-collapse supernovae}\\
+\multicolumn{2}{c}{} \\
+\textsc{Sep. 2019 -- Present}& {\parbox{108mm}{\rule{0pt}{2pt} Supervision of MSc student:  \textsc{R. Naab}}}\\
+&  \normalsize\emph{The next-generation Optical Follow-Up (OFU) program for IceCube}\\
+\multicolumn{2}{c}{} \\
+\textsc{May --  July 2019}& {\parbox{108mm}{\rule{0pt}{2pt}Teaching Assistant: \emph{Experimental Astroparticle Physics} }}\\
+&  \normalsize\textbf{Humboldt University of Berlin}\\
+\multicolumn{2}{c}{} \\
+\textsc{Oct 2018 -- Aug. 2019}& {\parbox{108mm}{\rule{0pt}{2pt} Supervision of BSc student:  \textsc{A. Vagts}}}\\
+&  \normalsize\emph{Investigation of the TXS 0506+056 neutrino spectrum}\\
+\multicolumn{2}{c}{} \\
+\textsc{June -- July 2018}& {\parbox{108mm}{\rule{0pt}{2pt}Teaching Assistant: \emph{Experimental Astroparticle Physics} }}\\
+&  \normalsize\textbf{Humboldt University of Berlin}\\
+%{\parbox{108mm}{\rule{0pt}{2pt}\small{I am working on muon track reconstruction for the Icecube Gen2 upgrade. I am implementing a new reconstruction that models PMT prepulses and includes energy information in the likelihood.}}}\\
+%``\emph{Search for the origin of the astrophysical neutrino flux with the IceCube experiment, by cross-correlation of the neutrino signal to candidate source populations}" }}} \\
+\multicolumn{2}{c}{} \\
+\end{longtable}
+
+\bigskip
+%----------------------------------------------------------------------------------------
+%	INTERNSHIPS AND SUMMER SCHOOLS
+%----------------------------------------------------------------------------------------
+
+%\section{Internships and Summer Schools}
+%\section{Research Internships and Physics Summer Schools}
+\section{Research Internships and Physics Schools}
+
+\begin{longtable}{R{28mm}|p{108mm}}
+
+\textsc{3 -- 11 Oct. 2018}& \textsc{School for Astroparticle Physics}, \normalsize\textbf{Obertrubach-B\"arnfels, Germany}\\
+\multicolumn{2}{c}{} \\
+
+\textsc{June -- Sep. 2015} & \textsc{DAAD Summer Student Program}, \normalsize\textbf{TU Dortmund, DE}\\
+&{\parbox{108mm}{\rule{0pt}{2pt}\small{I worked within the Mu2e experiment on the magnetic field of the solenoids. \\}}}\\
+&\small{Supervisor:} \normalsize \textsc{T. Tekampe}\\
+\multicolumn{2}{c}{} \\
+\end{longtable}
+
+\bigskip
+
+
+%%----------------------------------------------------------------------------------------
+%%	CONFERENCES AND WORKSHOP
+%%----------------------------------------------------------------------------------------
+%
+%\section{Conferences and Workshops Attended}
+%
+%\begin{longtable}{R{26mm}|p{110mm}}
+%\textsc{24 July-1 Aug. 2019} & {36\textsuperscript{th} International Cosmic Ray Conference (ICRC)}, \normalsize{Madison}\\
+%\multicolumn{2}{c}{} \\
+%
+%\textsc{2-4 Oct. 2018} & {Very Large Volume Neutrino Telescopes (VLVNT) 2018 Workshop}, \normalsize{Dubna}\\
+%\multicolumn{2}{c}{} \\
+%
+%\textsc{7-8 Oct. 2017} & {MANTS 2017 Meeting}, \normalsize{Marseille}\\
+%\multicolumn{2}{c}{} \\
+%
+%\textsc{3-10 Aug. 2016} & {38\textsuperscript{th} International Conference on High Energy Physics} (ICHEP), \normalsize{Chicago}\\
+%%& Poster presentation and elevator talk in the session ``1' elevator speeches by young scientists'' on: ``\emph{Studies of the impact of magnetic field uncertainties on the physics parameters of the Mu2e experiment}''  \\
+%\multicolumn{2}{c}{} \\
+%
+%\textsc{15-16 June 2016} & {49\textsuperscript{th} Annual Fermilab Users Meeting}, \normalsize{FERMILAB}\\
+%%& Poster presented, 2\textsuperscript{nd} award won on:  ``\emph{Studies of the Impact of Field Uncertainties on Physics Parameters of the Mu2e Experiment}''\\
+%\multicolumn{2}{c}{} \\
+%
+%\textsc{4-6 Dec. 2015}& {Dark Matter at a future hadron collider}, \normalsize{FERMILAB}\\
+%\multicolumn{2}{c}{} \\
+%
+%\end{longtable}
+%\bigskip
+
+
+%----------------------------------------------------------------------------------------
+%	PUBLICATIONS
+%----------------------------------------------------------------------------------------
+
+%\begin{thebibliography}{10}% Bibliography - this is intentionally simple in this template
+%\bibitem{Bradascio:2016hjx}
+%\textsc{F.~Bradascio},
+%\emph{Studies of the Impact of Magnetic Field Uncertainties on Physics Parameters of the Mu2e Experiment},
+%FERMILAB-MASTERS-2016-04.
+%
+%\bibitem{Bradascio:PoS}
+%\textsc{F.~Bradascio},
+%\emph{Studies of the Impact of Magnetic Field Uncertainties on Physics Parameters of the Mu2e Experiment},
+%to appear in  the proceedings of the ICHEP conference.
+%
+%\bibitem{}
+%\textsc{M. Lopes, et al.},
+%\emph{Mu2e Transport Solenoid Cold-Mass Alignment Issues},
+%ASC2016-2LOr1C-04.
+%\end{thebibliography}
+
+%\bibliographystyle{apsrev}
+%%\bibliographystyle{ieeetr}
+%\bibliography{CVbib}{}
+
+\section{Selected Publications}
+\begin{longtable}{L{10mm} p{126mm}}
+\bf 2020 & \textsc{IceCube Collaboration},
+\emph{Search for high-energy neutrinos from tidal disruption events},
+(in prep.)\\
+&\\	
+ & \textsc{R.~Stein} et al.,
+\emph{A high-energy neutrino coincident with a tidal disruption event},
+(in prep.)\\
+&\\	
+
+\bf 2019 & \textsc{R.~Stein for the IceCube Collaboration},
+\emph{\href{https://arxiv.org/abs/1908.08547}{Search for Neutrinos from Populations of Optical Transients}},
+PoS(ICRC2019)1016\\
+&\\
+\end{longtable}
+
+
+%\bigskip
+
+%----------------------------------------------------------------------------------------
+%	PRESENTATIONS
+%----------------------------------------------------------------------------------------
+
+\section{Talks and Posters}
+
+\begin{longtable}{R{26mm}|p{110mm}}
+	
+\textsc{15 - 20 Dec. 2019} & {\textsc{Talk}, TEXAS Symposium for Relativistic Astrophysics, \normalsize{Portsmouth, UK}}\\
+& ``\emph{The IceCube Realtime System}''  \\
+\multicolumn{2}{c}{} \\
+	
+\textsc{25 - 27 Oct. 2019} & {\textsc{Invited Talk}, Perspectives in Astroparticle physics from High Energy Neutrinos (PAHEN), \normalsize{Berlin, DE}}\\
+& ``\emph{Neutrinos from optical transients with IceCube}''  \\
+\multicolumn{2}{c}{} \\
+
+\textsc{24 July-1 Aug. 2019} & {{\textsc{Talk}, 36\textsuperscript{th} International Cosmic Ray Conference (ICRC)}, \normalsize{Madison, USA}}\\
+& ``\emph{Search for Neutrinos from Populations of Optical Transients}''  \\
+\multicolumn{2}{c}{} \\
+
+\textsc{25 - 29 Mar. 2019} & {\textsc{Talk}, The New Era of Multi-Messenger Astrophysics, \normalsize{Groningen, NL}}\\
+& ``\emph{Search for High-Energy Neutrinos from Populations of Optical Transients}''  \\
+\multicolumn{2}{c}{} \\
+
+\textsc{27-31 Aug. 2018 } & {\textsc{Poster}, TeV Particle Astrophysics (TeVPA), \normalsize{Berlin, DE}}\\
+& ``\emph{Probing the Tidal Disruption of Stars by Supermassive Black Holes with the IceCube Neutrino Observatory}''  \\
+\multicolumn{2}{c}{} \\
+
+\textsc{20-26 Jan. 2018 } & {\textsc{Invited Talk}, ESO Thirty Minute Talk, \normalsize{Santiago, CL}}\\
+& ``\emph{ZTF and the AMPEL Broker: Providing a realtime public astronomical survey}''  \\
+\multicolumn{2}{c}{} \\
+
+\textsc{20-26 Jan. 2018 } & {\textsc{Talk}, Using Tidal Disruption Events to Study Super-Massive Black Holes, \normalsize{Aspen, USA}}\\
+& ``\emph{The search for high-energy neutrinos: a TDE stacking analysis}''  \\
+\multicolumn{2}{c}{} \\
+
+\end{longtable}
+
+%\bigskip
+
+%----------------------------------------------------------------------------------------
+%	AWARDS AND HONORS
+%----------------------------------------------------------------------------------------
+
+\section{Scholarships, Awards and Honours}
+
+\begin{longtable}{R{26mm}|p{110mm}}
+	\textsc{16\textsuperscript{th} Oct 2019} & Winner of the annual DESY-wide Science Slam, DESY Hamburg\\
+	\multicolumn{2}{c}{} \\
+	\textsc{21\textsuperscript{st} Nov 2018} & Winner of the annual Zeuthen Science Slam, DESY Zeuthen\\
+	\multicolumn{2}{c}{} \\
+	\textsc{Oct. 2013 - June 2017} & President's Undergraduate Scholarship, Imperial College London\\
+	\multicolumn{2}{c}{} \\
+	\textsc{June 2015 - Sep. 2015}  & DAAD RISE Scholarship, TU Dortmund\\
+	\multicolumn{2}{c}{} \\
+\end{longtable}
+
+%\bigskip
+
+%----------------------------------------------------------------------------------------
+%	OUTREACH
+%----------------------------------------------------------------------------------------
+
+\section{Outreach}
+
+\begin{longtable}{R{26mm}|p{110mm}}
+\textsc{Aug. - Nov. 2019} & \textsc{International Cosmic Day 2019}, DESY (Zeuthen)\\
+\multicolumn{2}{c}{} \\
+
+\textsc{March 2019} & \textsc{IceCube Masterclass}, DESY (Zeuthen)\\
+\multicolumn{2}{c}{} \\
+
+\textsc{Aug. - Nov. 2018} & \textsc{International Cosmic Day 2018}, DESY (Zeuthen)\\
+\multicolumn{2}{c}{} \\
+
+\textsc{March 2018} & \textsc{IceCube Masterclass}, DESY (Zeuthen)\\
+\multicolumn{2}{c}{} \\
+
+\textsc{Aug. - Nov. 2017} & \textsc{International Cosmic Day 2017}, DESY (Zeuthen)\\
+\multicolumn{2}{c}{} \\
+
+\textsc{Oct. 2017} & \textsc{IceCube Masterclass}, DESY (Zeuthen)\\
+\multicolumn{2}{c}{} \\
+\end{longtable}
+
+%\bigskip
+
+
+%%----------------------------------------------------------------------------------------
+%%	LINGUISTIC TRAINING SUMMER SCHOOLS
+%%----------------------------------------------------------------------------------------
+%
+%\section{Linguistic Training Summer Schools}
+%\begin{longtable}{R{26mm}|p{110mm}}
+%\textsc{July 2008}& \textsc{English Language Course}, \normalsize\textbf{Hampstead School of English}, London\\
+%&{\parbox{110mm}{\rule{0pt}{2pt}\small{Two weeks English language course at \emph{Proficient User (C1) level}}}}\\
+%\multicolumn{2}{c}{} \\
+%
+%\textsc{July 2007}& \parbox{110mm}{\rule{0pt}{2pt}\textsc{English Language Course}, \normalsize\textbf{Twin English Center London}, Stanford (UK)}\\
+%&{\parbox{110mm}{\rule{0pt}{2pt}\small{Two weeks English language course at \emph{Upper Intermediate level}}}}\\
+%& \small{Grade:} \normalsize{A} \\
+%\multicolumn{2}{c}{} \\
+%
+%\textsc{August 2006}& \textsc{English Language Course}, \normalsize\textbf{Lewis School of English}, Perth (UK)\\
+%&{\parbox{110mm}{\rule{0pt}{2pt}\small{Two weeks English language course at \emph{Intermediate level}}}}\\
+%& {\parbox{110mm}{\rule{0pt}{2pt}\small{Final score:} \\
+%\small{\textsc{Reading:} Higher Intermediate;\\ 
+%\textsc{Writing:} Higher Intermediate;\\ 
+%\textsc{Listening:} Plus Intermediate+;\\ 
+%\textsc{Speaking:} Plus Intermediate+. }}}\\
+%\multicolumn{2}{c}{} \\
+%\end{longtable}
+%
+%%\newpage
+%
+%%\bigskip
+
+
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS 
+%----------------------------------------------------------------------------------------
+
+\section{Computer Skills}
+
+\begin{longtable}{rl}
+%\textbf{Advanced Knowledge:} & Bash, Shell, C/C++, Python, {\fb \LaTeX}, Inkscape \setmainfont[SmallCapsFont=Fontin SmallCaps]{Fontin-Regular}\\
+%&\\
+%\textbf{Intermediate Knowledge:} & {\parbox{95mm}{\rule{0pt}{2pt}Root Data Analysis, Matlab}}\\
+%&\\
+%\textbf{Basic Knowledge:} & Mathematica, Awk, MongoDB\\
+%&\\
+
+\textbf{Operating Systems:} & Linux/Unix, MacOSX, Windows\\
+&\\
+\textbf{Programming:} & C/C++, Python, Bash, Shell (advanced);  \\
+& Root Data Analysis, Matlab (intermediate)\\
+&\\
+\textbf{Mathematical and Numerical Packages:} & Mathematica, HEALPix (basic)\\
+&\\
+\textbf{Statistical Tools:} & Minuit, MCMC simulations (basic)\\
+&\\
+\textbf{Database Packages:} & MongoDB (basic)\\
+&\\
+\textbf{Typesetting Packages:}  &  {\fb \LaTeX}, MSOffice, OpenOffice\\
+\end{longtable}
+
+%\bigskip
+
+
+%----------------------------------------------------------------------------------------
+%	LANGUAGES
+%----------------------------------------------------------------------------------------
+
+\section{Languages}
+
+\begin{tabular}{lrl}
+\textbf{English: } & {Native Speaker}  &\\
+\textbf{German: } & {Advanced (C1)}  &\\
+%\end{longtable}
+\end{tabular}
+%\begin{tabular}{lll}
+%{Mother tongue:} & \textsc{Italian} &\\
+%{Other languages:} & \textsc{English}&\\
+%& \textbf{Listening:} & Good\\
+%& \textbf{Reading:} & Excellent \\
+%& \textbf{Writing:} & Good\\
+%& \textbf{Speaking:} & Fluent\\
+%\end{tabular}
+
+%\bigskip
+
+\end{document}
+
+%----------------------------------------------------------------------------------------
+%	CERTIFICATES
+%----------------------------------------------------------------------------------------
+
+\section{Certificates}
+
+%\begin{tabular}{r|p{110mm}}
+\begin{longtable}{R{26mm}|p{110mm}}
+\textsc{May 2010}& \textsc{Certificate of attendance}, \normalsize\textbf{Societ\`a Chimica Italiana}\\
+&{\parbox{110mm}{\rule{0pt}{2pt}\small{Attendance at the regional final of the Chemistry Olympiads (Puglia, Italy)}}}\\
+\multicolumn{2}{c}{} \\
+
+\textsc{May 2009}& \textsc{Certificate of attendance}, \normalsize\textbf{Societ\`a Chimica Italiana}\\
+&{\parbox{110mm}{\rule{0pt}{2pt}\small{Attendance at the regional final of the Chemistry Olympiads (Puglia, Italy)}}}\\
+\multicolumn{2}{c}{} \\
+
+\textsc{July 2008}& {\parbox{110mm}{\rule{0pt}{2pt}\textsc{Preliminary English Test (PET)}, \normalsize\textbf{University of Cambridge -- ESOL \\Examination}}}\\
+&{\parbox{110mm}{\rule{0pt}{2pt}\small{English for speakers of other languages.}}}\\ 
+& {\parbox{110mm}{\rule{0pt}{2pt}\small{Final score: }\normalsize{\textsc {Pass with merit}} \\
+\small{\textsc{Reading:} good;\\ 
+\textsc{Writing:} exceptional;\\ 
+\textsc{Listening:} exceptional;\\
+\textsc{Speaking:} exceptional. }}}\\
+\multicolumn{2}{c}{} \\
+%\end{longtable}
+%
+%\begin{longtable}{R{26mm}|p{110mm}}
+\textsc{July 2008}& {\parbox{110mm}{\rule{0pt}{2pt}\textsc{European Computer Driving Licence (ECDL) Certificate},}}\\
+& \normalsize\textbf{Associazione Italiana per l'Informatica ed il Calcolo Automatico (AICA)}\\
+&{\parbox{110mm}{\rule{0pt}{2pt}\small{Modules: basic concepts of Information Technology, using the computer and managing files, Word processing, spreadsheets, database, presentation, information and communication.}}}\\
+\multicolumn{2}{c}{} \\
+
+\textsc{June 2007}& \textsc{Graded Examination in Spoken English}, \normalsize\textbf{Trinity College London}\\
+&{\parbox{110mm}{\rule{0pt}{2pt}\small{Graded Examination in Spoken English for speakers of other languages \emph{Upper Intermediate level}}}}\\
+& \normalsize{Grade 7, \textsc{passed with Merit}} \\
+\multicolumn{2}{c}{} \\
+\end{longtable}
+
+%\bigskip
+%----------------------------------------------------------------------------------------
+%	LANGUAGES
+%----------------------------------------------------------------------------------------
+
+\section{Languages}
+
+\begin{tabular}{lrl}
+\textbf{Italian: } & {Mothertongue}  &\\
+\textbf{English: }& \textsc{Listening:} & Good\\
+& \textsc{Reading:} & Excellent \\
+& \textsc{Writing:} & Good\\
+& \textsc{Speaking:} & Fluent\\
+\textbf{German: } & {Basic knowledge}  &\\
+\textbf{French: } & {Basic knowledge}  &\\
+%\end{longtable}
+\end{tabular}
+%\begin{tabular}{lll}
+%{Mother tongue:} & \textsc{Italian} &\\
+%{Other languages:} & \textsc{English}&\\
+%& \textbf{Listening:} & Good\\
+%& \textbf{Reading:} & Excellent \\
+%& \textbf{Writing:} & Good\\
+%& \textbf{Speaking:} & Fluent\\
+%\end{tabular}
+
+%\bigskip
+
+%----------------------------------------------------------------------------------------
+%	COMUNICATION SKILLS 
+%----------------------------------------------------------------------------------------
+
+\section{Communication Skills}
+
+Good communication skills gained through my experience at giving presentations to colleagues and professors. 
+
+%\bigskip
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS AND ACTIVITIES
+%----------------------------------------------------------------------------------------
+
+\section{Interests and Activities}
+
+I have studied piano for 12 years. I play organ and sing in a choir, too. \\
+I am a passionate reader and I enjoy all sports, particularly beach volley, volleyball, swimming and running. \\
+I love traveling and experiencing different cultures. \\
+I have been involved in social activities.\\
+%----------------------------------------------------------------------------------------
+
+
+\newpage
+
+%----------------------------------------------------------------------------------------
+%	GRADE TABLES
+%----------------------------------------------------------------------------------------
+\par{\centering\Large \hypertarget{grds_mast}{Master Degree in \textsc{Physics of Fundamental Interactions}}\par}\large{\centering Grades\par}\normalsize
+
+\begin{table}[h]
+\begin{center}
+\begin{tabular}{l ccc}
+\toprule
+\textsc{Exam} & \textsc{Credit CFU} & \textsc{Date}&\textsc{Grade}\\
+\midrule
+Theoretical Physics 1	&	9&		25/02/2014	&	28/30\\
+Elementary Particles 1&	9&	11/07/2014	&	26/30\\
+Astroparticles \small{(optional)}	&	6&		31/10/2014	&	27/30\\
+General Relativity	\small{(optional)}	&9&		12/01/2015	&	30/30\\
+Elementary Particles 2	&9&	26/01/2015	&	27/30\\
+Laboratory of Fundamental Interactions	&12&	12/02/2015	&	28/30\\
+Particle Accelerator Machines \small{(optional)} &9& 18/05/2015 & 30/30\\
+Statistical Data Analysis \small{(optional)}	&9& 24/06/2015 & 30/30 cum Laude\\
+Summer School at Fermilab and & \multirow{2}{*}{3}& \multirow{2}{*}{10/11/2015} & \multirow{2}{*}{30}\\
+US Laboratories \small{(optional)} & & & \\
+\bottomrule
+%\textsc{Average Score}&&&\textbf{28}
+\end{tabular}
+\end{center}
+\end{table}%
+
+\centering Other additional courses attended: \textit{Monte Carlo Simulations, Hadron Colliders}.
+
+
+%------------------------------------------------
+\bigskip
+\bigskip
+
+\par{\centering\Large \hypertarget{grds_bac}{Bachelor Degree in \textsc{Physics}}\par}\large{\centering Grades\par}\normalsize
+
+\begin{table}[h]
+\begin{center}
+\begin{tabular}{l ccc}
+\toprule
+\multicolumn{1}{c}{\textsc{Exam}} & \textsc{Credit CFU} & \textsc{Date}&\textsc{Grade}\\
+\midrule
+English Language & 3&	25/01/2011&	Excellent\\
+Mathematical Analysis 1&	9&10/02/2011&24/30\\
+Laboratory  1&	12& 22/06/2011&26/30\\ 
+Mathematical Analysis 2 & 6 & 07/07/2011&22/30\\
+Physics 1&15&	26/07/2011 &30/30\\
+Chemistry &	6&		15/09/2011		&27/30\\
+Mathematical Analysis 3  &6		&07/02/2012		&30/30 cum Laude\\ 
+Mathematical Methods 1 &	6	&04/06/2012		&29/30\\
+Computer Science		&6&		26/06/2012&		26/30\\
+Physics  2				  &15&		27/06/2012	&	27/30\\
+Laboratory  2 		  &12&		10/07/2012	&	26/30\\
+Classical Mechanics 	  &12&		20/07/2012	&	25/30\\
+Geometry 1 			&  9&		20/09/2012&		26/30\\
+Mathematical Methods 2 	  &6&		19/12/2012	&	27/30\\
+Quantum Mechanics& 	  12&		11/06/2013&		30/30\\
+Matter Structure& 6&		28/06/2013&		28/30\\
+Analytical Mechanics \small{(optional)}	  &6&		28/06/2013	&	26/30\\
+History of Physics \small{(optional)}	  &6&		23/07/2013	&	28/30\\
+Physics 3 				  &12&		27/09/2013	&	27/30\\
+Acoustic Laboratory &12&		30/09/2013&		25/30\\
+\bottomrule
+%\textsc{Average Score}&&&\textbf{26.7}
+\end{tabular}
+\end{center}
+\end{table}%
+
+
+
+
+\end{document}
+
+
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE 
+%----------------------------------------------------------------------------------------
+
+\section{Work Experience}
+
+\begin{tabular}{r|p{11cm}}
+\emph{Current} & 1\textsuperscript{st} year Analyst at \textsc{Lehman Brothers}, London \\
+\textsc{Mar 2012} & \emph{Commodities Structured Trading}\\ 
+& \footnotesize{Developed spreadsheets for risk analysis on exotic derivatives on a wide array of commodities (\textit{ags, oils, precious} and \textit{base metals}), managed blotter and secondary trades on structured notes, liaised with Middle Office, Sales and Structuring for bookkeeping.}\\
+\multicolumn{2}{c}{} \\
+
+%------------------------------------------------
+
+\textsc{Jul 2010-Oct 2011} & Summer Intern at \textsc{Intech Inc}, Chicago \emph{}\\
+& \footnotesize{Received pre-placed offer from the Exotics Trading Desk as a result of very positive review. Rated ``\emph{truly distinctive}'' for Analytical Skills and Teamwork.}\\
+\multicolumn{2}{c}{} \\
+
+%------------------------------------------------
+
+\textsc{Jan-Mar 2011} & Computer Technician at \textsc{Buy More}, Burbank \emph{}\\
+& \footnotesize{Worked in the Nerd Herd and helped to solve computer problems by asking customers to turn their computers off and on again.}
+\end{tabular}
+
