@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2019.8.22)  24 SEP 2020 11:57
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2019.8.22)  24 SEP 2020 16:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -769,21 +769,26 @@ Overfull \hbox (2.95746pt too wide) in alignment at lines 448--486
  []
 
 
+Overfull \hbox (2.95746pt too wide) in alignment at lines 489--500
+ [] [] 
+ []
+
+
 AED: lastpage setting LastPage
 [3]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 488.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 488.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 502.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 502.
  (./robert_stein_cv.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 488.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 488.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 502.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 502.
 Package rerunfilecheck Info: File `robert_stein_cv.out' has not changed.
-(rerunfilecheck)             Checksum: 31558AA4A0BC2D536E74943FAA737DC0.
+(rerunfilecheck)             Checksum: AF01FE35A6110D35490D66AA3DDAB092.
  ) 
 Here is how much of TeX's memory you used:
- 25021 strings out of 492916
- 454304 string characters out of 6133345
- 550840 words of memory out of 5000000
- 28931 multiletter control sequences out of 15000+600000
+ 25022 strings out of 492916
+ 454311 string characters out of 6133345
+ 550951 words of memory out of 5000000
+ 28932 multiletter control sequences out of 15000+600000
  532818 words of font info for 40 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  47i,11n,48p,1204b,446s stack positions out of 5000i,500n,10000p,200000b,80000s
