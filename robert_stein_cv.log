@@ -1,9 +1,14 @@
+<<<<<<< HEAD
 This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.11.18)  6 DEC 2021 09:47
+=======
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.7.27)  30 JUL 2021 15:48
+>>>>>>> 41d66b92caa392697d20702b0a70bdbf0fca8c41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **robert_stein_cv.tex
 (./robert_stein_cv.tex
+<<<<<<< HEAD
 LaTeX2e <2020-10-01> patch level 4
 L3 programming layer <2021-02-18>
 (/usr/local/texlive/2021/texmf-dist/tex/latex/base/article.cls
@@ -19,10 +24,28 @@ File: size10.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
 \c@subparagraph=\count180
 \c@figure=\count181
 \c@table=\count182
+=======
+LaTeX2e <2021-06-01> patch level 1
+L3 programming layer <2021-07-12>
+(/home/robstein/texlive/2021/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2021/02/12 v1.4n Standard LaTeX document class
+(/home/robstein/texlive/2021/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2021/02/12 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count178
+\c@section=\count179
+\c@subsection=\count180
+\c@subsubsection=\count181
+\c@paragraph=\count182
+\c@subparagraph=\count183
+\c@figure=\count184
+\c@table=\count185
+>>>>>>> 41d66b92caa392697d20702b0a70bdbf0fca8c41
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
 \bibindent=\dimen138
 )
+<<<<<<< HEAD
 (/usr/local/texlive/2021/texmf-dist/tex/xelatex/xunicode/xunicode.sty
 File: xunicode.sty 2011/09/09 v0.981 provides access to latin accents and many 
 other characters in Unicode lower plane
@@ -38,9 +61,27 @@ File: t3enc.def 2001/12/31 T3 encoding
 Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks17
+=======
+(/home/robstein/texlive/2021/texmf-dist/tex/xelatex/xunicode/xunicode.sty
+File: xunicode.sty 2011/09/09 v0.981 provides access to latin accents and many 
+other characters in Unicode lower plane
+
+(/home/robstein/texlive/2021/texmf-dist/tex/latex/tipa/t3enc.def
+File: t3enc.def 2001/12/31 T3 encoding
 )
+\tipaTiiicode=\count186
+\tipasavetokens=\toks16
+\tipachecktokens=\toks17
+
+(/home/robstein/texlive/2021/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2020/12/05 v1.2c Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/home/robstein/texlive/2021/texmf-dist/tex/latex/graphics/keyval.sty
+>>>>>>> 41d66b92caa392697d20702b0a70bdbf0fca8c41
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks18
+)
+<<<<<<< HEAD
 (/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
 
@@ -48,16 +89,30 @@ Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
 (/usr/local/texlive/2021/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+=======
+(/home/robstein/texlive/2021/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
+
+(/home/robstein/texlive/2021/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/home/robstein/texlive/2021/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+>>>>>>> 41d66b92caa392697d20702b0a70bdbf0fca8c41
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: xetex.def on input line 105.
+Package graphics Info: Driver file: xetex.def on input line 107.
 
+<<<<<<< HEAD
 (/usr/local/texlive/2021/texmf-dist/tex/latex/graphics-def/xetex.def
+=======
+(/home/robstein/texlive/2021/texmf-dist/tex/latex/graphics-def/xetex.def
+>>>>>>> 41d66b92caa392697d20702b0a70bdbf0fca8c41
 File: xetex.def 2021/03/18 v5.0k Graphics/color driver for xetex
 ))
 \Gin@req@height=\dimen139
 \Gin@req@width=\dimen140
 ))
+<<<<<<< HEAD
 (/usr/local/texlive/2021/texmf-dist/tex/xelatex/xltxtra/xltxtra.sty
 Package: xltxtra 2018/12/31 v0.7 Improvements for the "XeLaTeX" format
 
@@ -108,32 +163,94 @@ X
 \l__fontspec_emdef_int=\count199
 \l__fontspec_strong_int=\count266
 \l__fontspec_strongdef_int=\count267
+=======
+(/home/robstein/texlive/2021/texmf-dist/tex/xelatex/xltxtra/xltxtra.sty
+Package: xltxtra 2018/12/31 v0.7 Improvements for the "XeLaTeX" format
+
+(/home/robstein/texlive/2021/texmf-dist/tex/generic/iftex/ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+
+(/home/robstein/texlive/2021/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+(/home/robstein/texlive/2021/texmf-dist/tex/generic/iftex/ifxetex.sty
+Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
+)
+(/home/robstein/texlive/2021/texmf-dist/tex/latex/fontspec/fontspec.sty
+(/home/robstein/texlive/2021/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+(/home/robstein/texlive/2021/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2021-07-12 L3 programming layer (loader) 
+
+(/home/robstein/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
+File: l3backend-xetex.def 2021-07-12 L3 backend support: XeTeX
+(|extractbb --version)
+\c__kernel_sys_dvipdfmx_version_int=\count187
+\l__color_backend_stack_int=\count188
+\g__color_backend_stack_int=\count189
+\g__graphics_track_int=\count190
+\l__pdf_internal_box=\box50
+\g__pdf_backend_object_int=\count191
+\g__pdf_backend_annotation_int=\count192
+\g__pdf_backend_link_int=\count193
+))
+Package: xparse 2021-06-18 L3 Experimental document command parser
+)
+Package: fontspec 2020/02/21 v2.7i Font selection for XeLaTeX and LuaLaTeX
+
+(/home/robstein/texlive/2021/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+Package: fontspec-xetex 2020/02/21 v2.7i Font selection for XeLaTeX and LuaLaTe
+X
+\l__fontspec_script_int=\count194
+\l__fontspec_language_int=\count195
+\l__fontspec_strnum_int=\count196
+\l__fontspec_tmp_int=\count197
+\l__fontspec_tmpa_int=\count198
+\l__fontspec_tmpb_int=\count199
+\l__fontspec_tmpc_int=\count266
+\l__fontspec_em_int=\count267
+\l__fontspec_emdef_int=\count268
+\l__fontspec_strong_int=\count269
+\l__fontspec_strongdef_int=\count270
+>>>>>>> 41d66b92caa392697d20702b0a70bdbf0fca8c41
 \l__fontspec_tmpa_dim=\dimen141
 \l__fontspec_tmpb_dim=\dimen142
 \l__fontspec_tmpc_dim=\dimen143
 
+<<<<<<< HEAD
 (/usr/local/texlive/2021/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
 )
 (/usr/local/texlive/2021/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
 (/usr/local/texlive/2021/texmf-dist/tex/latex/realscripts/realscripts.sty
+=======
+(/home/robstein/texlive/2021/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+)
+(/home/robstein/texlive/2021/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+(/home/robstein/texlive/2021/texmf-dist/tex/latex/realscripts/realscripts.sty
+>>>>>>> 41d66b92caa392697d20702b0a70bdbf0fca8c41
 Package: realscripts 2016/02/13 v0.3d Access OpenType subscripts and superscrip
 ts
 \subsupersep=\dimen144
 )
+<<<<<<< HEAD
 (/usr/local/texlive/2021/texmf-dist/tex/latex/metalogo/metalogo.sty
+=======
+(/home/robstein/texlive/2021/texmf-dist/tex/latex/metalogo/metalogo.sty
+>>>>>>> 41d66b92caa392697d20702b0a70bdbf0fca8c41
 Package: metalogo 2010/05/29 v0.12 Extended TeX logo macros
-\xl@everylogo=\toks18
-\xl@@everylogo=\toks19
+\xl@everylogo=\toks19
+\xl@@everylogo=\toks20
 LaTeX Info: Redefining \TeX on input line 193.
 LaTeX Info: Redefining \LaTeX on input line 202.
 LaTeX Info: Redefining \LaTeXe on input line 219.
 )
-\l__xetex_show_hyphens_wrapping_box=\box48
-\l__xetex_show_hyphens_temp_box=\box49
-\l__xetex_show_hyphens_final_box=\box50
-\g__xetex_show_hyphens_word_box=\box51
+\l__xetex_show_hyphens_wrapping_box=\box51
+\l__xetex_show_hyphens_temp_box=\box52
+\l__xetex_show_hyphens_final_box=\box53
+\g__xetex_show_hyphens_word_box=\box54
 )
+<<<<<<< HEAD
 (/usr/local/texlive/2021/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
@@ -158,6 +275,32 @@ Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/graphics-cfg/color.cfg
+=======
+(/home/robstein/texlive/2021/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+(/home/robstein/texlive/2021/texmf-dist/tex/latex/parskip/parskip.sty
+Package: parskip 2021-03-14 v2.0h non-zero parskip adjustments
+
+(/home/robstein/texlive/2021/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+
+(/home/robstein/texlive/2021/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+(/home/robstein/texlive/2021/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+))
+(/home/robstein/texlive/2021/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count271
+))
+(/home/robstein/texlive/2021/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/home/robstein/texlive/2021/texmf-dist/tex/latex/graphics-cfg/color.cfg
+>>>>>>> 41d66b92caa392697d20702b0a70bdbf0fca8c41
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Package option `usenames' ignored on input line 216.
@@ -171,12 +314,17 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 
+<<<<<<< HEAD
 (/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/dvipsnam.def
+=======
+(/home/robstein/texlive/2021/texmf-dist/tex/latex/graphics/dvipsnam.def
+>>>>>>> 41d66b92caa392697d20702b0a70bdbf0fca8c41
 File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
 ))
 (./layaureo.sty
 Package: layaureo 2004/09/16 v0.2
 
+<<<<<<< HEAD
 (/usr/local/texlive/2021/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
 
@@ -186,6 +334,17 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@cnth=\count269
 \Gm@cntv=\count270
 \c@Gm@tempcnt=\count271
+=======
+(/home/robstein/texlive/2021/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/home/robstein/texlive/2021/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count272
+\Gm@cntv=\count273
+\c@Gm@tempcnt=\count274
+>>>>>>> 41d66b92caa392697d20702b0a70bdbf0fca8c41
 \Gm@bindingoffset=\dimen145
 \Gm@wd@mp=\dimen146
 \Gm@odd@mp=\dimen147
@@ -194,19 +353,30 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@layoutheight=\dimen150
 \Gm@layouthoffset=\dimen151
 \Gm@layoutvoffset=\dimen152
-\Gm@dimlist=\toks20
+\Gm@dimlist=\toks21
 )
+<<<<<<< HEAD
 (/usr/local/texlive/2021/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count272
 \calc@Bcount=\count273
+=======
+(/home/robstein/texlive/2021/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count275
+\calc@Bcount=\count276
+>>>>>>> 41d66b92caa392697d20702b0a70bdbf0fca8c41
 \calc@Adimen=\dimen153
 \calc@Bdimen=\dimen154
 \calc@Askip=\skip49
 \calc@Bskip=\skip50
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
+<<<<<<< HEAD
 \calc@Ccount=\count274
+=======
+\calc@Ccount=\count277
+>>>>>>> 41d66b92caa392697d20702b0a70bdbf0fca8c41
 \calc@Cskip=\skip51
 )
 \LA@MargineRilegatura=\skip52
@@ -215,6 +385,7 @@ LaTeX Info: Redefining \addtolength on input line 81.
 \LA@MargineSinistro=\skip55
 \LA@MargineSuperiore=\skip56
 )
+<<<<<<< HEAD
 (/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2021-02-27 v7.00k Hypertext links for LaTeX
 
@@ -223,12 +394,23 @@ Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
 )
 
 (/usr/local/texlive/2021/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+=======
+(/home/robstein/texlive/2021/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2021-06-07 v7.00m Hypertext links for LaTeX
+
+(/home/robstein/texlive/2021/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/home/robstein/texlive/2021/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+>>>>>>> 41d66b92caa392697d20702b0a70bdbf0fca8c41
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode not found.
 )
+<<<<<<< HEAD
 (/usr/local/texlive/2021/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
 )
@@ -267,6 +449,46 @@ File: puenc.def 2021-02-27 v7.00k Hyperref: PDF Unicode definition (HO)
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/puenc-greekbasic.def
 File: puenc-greekbasic.def 2021-02-27 v7.00k Hyperref: PDF Unicode definition (
+=======
+(/home/robstein/texlive/2021/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.s
+ty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+) (/home/robstein/texlive/2021/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+) (/home/robstein/texlive/2021/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(/home/robstein/texlive/2021/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(/home/robstein/texlive/2021/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+\@linkdim=\dimen155
+\Hy@linkcounter=\count278
+\Hy@pagecounter=\count279
+
+(/home/robstein/texlive/2021/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2021-06-07 v7.00m Hyperref: PDFDocEncoding definition (HO)
+)
+(/home/robstein/texlive/2021/texmf-dist/tex/latex/hyperref/hyperref-langpatches
+.def
+File: hyperref-langpatches.def 2021-06-07 v7.00m Hyperref: patches for babel la
+nguages
+) (/home/robstein/texlive/2021/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+(/home/robstein/texlive/2021/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count280
+
+(/home/robstein/texlive/2021/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2021-06-07 v7.00m Hyperref: PDF Unicode definition (HO)
+
+(/home/robstein/texlive/2021/texmf-dist/tex/latex/hyperref/puenc-greekbasic.def
+File: puenc-greekbasic.def 2021-06-07 v7.00m Hyperref: PDF Unicode definition (
+>>>>>>> 41d66b92caa392697d20702b0a70bdbf0fca8c41
 greek block) (HO)
 ))
 Package hyperref Info: Hyper figures OFF on input line 4192.
@@ -276,6 +498,7 @@ Package hyperref Info: Plain pages OFF on input line 4207.
 Package hyperref Info: Backreferencing OFF on input line 4212.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4445.
+<<<<<<< HEAD
 \c@Hy@tempcnt=\count278
 LaTeX Info: Redefining \url on input line 4804.
 \XeTeXLinkMargin=\dimen156
@@ -327,11 +550,67 @@ Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 (/usr/local/texlive/2021/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
 (/usr/local/texlive/2021/texmf-dist/tex/latex/base/atveryend-ltx.sty
+=======
+\c@Hy@tempcnt=\count281
+LaTeX Info: Redefining \url on input line 4804.
+\XeTeXLinkMargin=\dimen156
+ (/home/robstein/texlive/2021/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(/home/robstein/texlive/2021/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count282
+\Field@Width=\dimen157
+\Fld@charsize=\dimen158
+Package hyperref Info: Hyper figures OFF on input line 6076.
+Package hyperref Info: Link nesting OFF on input line 6081.
+Package hyperref Info: Hyper index ON on input line 6084.
+Package hyperref Info: backreferencing OFF on input line 6091.
+Package hyperref Info: Link coloring OFF on input line 6096.
+Package hyperref Info: Link coloring with OCG OFF on input line 6101.
+Package hyperref Info: PDF/A mode OFF on input line 6106.
+LaTeX Info: Redefining \ref on input line 6146.
+LaTeX Info: Redefining \pageref on input line 6150.
+(/home/robstein/texlive/2021/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count283
+\c@Item=\count284
+\c@Hfootnote=\count285
+)
+Package hyperref Info: Driver (autodetected): hxetex.
+
+(/home/robstein/texlive/2021/texmf-dist/tex/latex/hyperref/hxetex.def
+File: hxetex.def 2021-06-07 v7.00m Hyperref driver for XeTeX
+
+(/home/robstein/texlive/2021/texmf-dist/tex/generic/stringenc/stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
+)
+\pdfm@box=\box55
+\c@Hy@AnnotLevel=\count286
+\HyField@AnnotCount=\count287
+\Fld@listcount=\count288
+\c@bookmark@seq@number=\count289
+
+(/home/robstein/texlive/2021/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck
+.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+ (/home/robstein/texlive/2021/texmf-dist/tex/latex/base/atveryend-ltx.sty
+>>>>>>> 41d66b92caa392697d20702b0a70bdbf0fca8c41
 Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atvery packag
 e
 with kernel methods
 )
+<<<<<<< HEAD
 (/usr/local/texlive/2021/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+=======
+(/home/robstein/texlive/2021/texmf-dist/tex/generic/uniquecounter/uniquecounter
+.sty
+>>>>>>> 41d66b92caa392697d20702b0a70bdbf0fca8c41
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
@@ -341,6 +620,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 31.
 Package hyperref Info: Option `breaklinks' set `true' on input line 31.
+<<<<<<< HEAD
  (/usr/local/texlive/2021/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
 \multirow@colwidth=\skip58
@@ -349,6 +629,15 @@ Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
 \bigstrutjot=\dimen159
 )
 (/usr/local/texlive/2021/texmf-dist/tex/latex/booktabs/booktabs.sty
+=======
+ (/home/robstein/texlive/2021/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip58
+\multirow@cntb=\count290
+\multirow@dima=\skip59
+\bigstrutjot=\dimen159
+) (/home/robstein/texlive/2021/texmf-dist/tex/latex/booktabs/booktabs.sty
+>>>>>>> 41d66b92caa392697d20702b0a70bdbf0fca8c41
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \heavyrulewidth=\dimen160
 \lightrulewidth=\dimen161
@@ -360,6 +649,7 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \cmidrulesep=\dimen167
 \cmidrulekern=\dimen168
 \defaultaddspace=\dimen169
+<<<<<<< HEAD
 \@cmidla=\count288
 \@cmidlb=\count289
 \@aboverulesep=\dimen170
@@ -370,10 +660,23 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 )
 (/usr/local/texlive/2021/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
+=======
+\@cmidla=\count291
+\@cmidlb=\count292
+\@aboverulesep=\dimen170
+\@belowrulesep=\dimen171
+\@thisruleclass=\count293
+\@lastruleclass=\count294
+\@thisrulewidth=\dimen172
+)
+(/home/robstein/texlive/2021/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2021-05-07 v4.16 Multi-page Table package (DPC)
+>>>>>>> 41d66b92caa392697d20702b0a70bdbf0fca8c41
 \LTleft=\skip60
 \LTright=\skip61
 \LTpre=\skip62
 \LTpost=\skip63
+<<<<<<< HEAD
 \LTchunksize=\count292
 \LTcapwidth=\dimen173
 \LT@head=\box53
@@ -389,21 +692,46 @@ Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
 (/usr/local/texlive/2021/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2019/10/16 v2.13 Sectioning titles
 \ttl@box=\box57
+=======
+\LTchunksize=\count295
+\LTcapwidth=\dimen173
+\LT@head=\box56
+\LT@firsthead=\box57
+\LT@foot=\box58
+\LT@lastfoot=\box59
+\LT@gbox=\box60
+\LT@cols=\count296
+\LT@rows=\count297
+\c@LT@tables=\count298
+\c@LT@chunks=\count299
+\LT@p@ftn=\toks22
+)
+(/home/robstein/texlive/2021/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2021/07/05 v2.14 Sectioning titles
+\ttl@box=\box61
+>>>>>>> 41d66b92caa392697d20702b0a70bdbf0fca8c41
 \beforetitleunit=\skip64
 \aftertitleunit=\skip65
 \ttl@plus=\dimen174
 \ttl@minus=\dimen175
-\ttl@toksa=\toks22
+\ttl@toksa=\toks23
 \titlewidth=\dimen176
 \titlewidthlast=\dimen177
 \titlewidthfirst=\dimen178
 )
 Invalid UTF-8 byte or sequence at line 44 replaced by U+FFFD.
 
+<<<<<<< HEAD
 (/usr/local/texlive/2021/texmf-dist/tex/latex/lastpage/lastpage.sty
 Package: lastpage 2015/03/29 v1.2m Refers to last page's name (HMM; JPG)
 )
 (/usr/local/texlive/2021/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+=======
+(/home/robstein/texlive/2021/texmf-dist/tex/latex/lastpage/lastpage.sty
+Package: lastpage 2015/03/29 v1.2m Refers to last page's name (HMM; JPG)
+)
+(/home/robstein/texlive/2021/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+>>>>>>> 41d66b92caa392697d20702b0a70bdbf0fca8c41
 Package: fancyhdr 2021/01/28 v4.0.1 Extensive control of page headers and foote
 rs
 \f@nch@headwidth=\skip66
@@ -425,15 +753,20 @@ Invalid UTF-8 byte or sequence at line 57 replaced by U+FFFD.
 Package fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
 less on input line 58.
 
+<<<<<<< HEAD
 (/usr/local/texlive/2021/texmf-dist/tex/latex/tools/array.sty
 Package: array 2020/10/01 v2.5c Tabular extension package (FMi)
+=======
+(/home/robstein/texlive/2021/texmf-dist/tex/latex/tools/array.sty
+Package: array 2021/04/20 v2.5e Tabular extension package (FMi)
+>>>>>>> 41d66b92caa392697d20702b0a70bdbf0fca8c41
 \col@sep=\dimen179
-\ar@mcellbox=\box58
+\ar@mcellbox=\box62
 \extrarowheight=\dimen180
-\NC@list=\toks23
+\NC@list=\toks24
 \extratabsurround=\skip75
 \backup@length=\skip76
-\ar@cellbox=\box59
+\ar@cellbox=\box63
 )
 (./robert_stein_cv.aux)
 \openout1 = `robert_stein_cv.aux'.
@@ -450,7 +783,11 @@ LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 68.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 6
 8.
 
+<<<<<<< HEAD
 (/usr/local/texlive/2021/texmf-dist/tex/latex/base/ts1cmr.fd
+=======
+(/home/robstein/texlive/2021/texmf-dist/tex/latex/base/ts1cmr.fd
+>>>>>>> 41d66b92caa392697d20702b0a70bdbf0fca8c41
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 68.
@@ -464,7 +801,11 @@ LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 68.
 LaTeX Font Info:    Trying to load font information for T3+cmr on input line 68
 .
 
+<<<<<<< HEAD
 (/usr/local/texlive/2021/texmf-dist/tex/latex/tipa/t3cmr.fd
+=======
+(/home/robstein/texlive/2021/texmf-dist/tex/latex/tipa/t3cmr.fd
+>>>>>>> 41d66b92caa392697d20702b0a70bdbf0fca8c41
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
 LaTeX Font Info:    ... okay on input line 68.
@@ -565,6 +906,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package hyperref Info: Link coloring ON on input line 68.
+<<<<<<< HEAD
 (/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 
@@ -576,6 +918,19 @@ ty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count297
+=======
+(/home/robstein/texlive/2021/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
+
+(/home/robstein/texlive/2021/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(/home/robstein/texlive/2021/texmf-dist/tex/generic/gettitlestring/gettitlestri
+ng.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count300
+>>>>>>> 41d66b92caa392697d20702b0a70bdbf0fca8c41
 )
 LaTeX Info: Redefining \ref on input line 68.
 LaTeX Info: Redefining \pageref on input line 68.
@@ -602,23 +957,32 @@ Overfull \hbox (3.35745pt too wide) in alignment at lines 159--174
  []
 
 
+<<<<<<< HEAD
 Overfull \hbox (3.35745pt too wide) in alignment at lines 182--222
  [] [] 
  []
 
 
 Overfull \hbox (3.35745pt too wide) in alignment at lines 222--252
+=======
+Overfull \hbox (3.35745pt too wide) in alignment at lines 162--228
+>>>>>>> 41d66b92caa392697d20702b0a70bdbf0fca8c41
  [] [] 
  []
 
 [1
 
 ]
+<<<<<<< HEAD
 Overfull \hbox (3.35745pt too wide) in alignment at lines 256--269
+=======
+Overfull \hbox (3.35745pt too wide) in alignment at lines 232--245
+>>>>>>> 41d66b92caa392697d20702b0a70bdbf0fca8c41
  [] [] 
  []
 
 
+<<<<<<< HEAD
 Overfull \hbox (3.35745pt too wide) in alignment at lines 273--283
  [] [] 
  []
@@ -635,11 +999,28 @@ Overfull \hbox (2.95746pt too wide) in alignment at lines 494--541
 
 
 Overfull \hbox (2.95746pt too wide) in alignment at lines 541--548
+=======
+Overfull \hbox (3.35745pt too wide) in alignment at lines 249--265
+ [] [] 
+ []
+
+[2]
+Overfull \hbox (3.35745pt too wide) in alignment at lines 272--294
+ [] [] 
+ []
+
+[3]
+Overfull \hbox (2.95746pt too wide) in alignment at lines 447--489
+>>>>>>> 41d66b92caa392697d20702b0a70bdbf0fca8c41
  [] [] 
  []
 
 
+<<<<<<< HEAD
 Overfull \hbox (2.95746pt too wide) in alignment at lines 551--562
+=======
+Overfull \hbox (2.95746pt too wide) in alignment at lines 492--503
+>>>>>>> 41d66b92caa392697d20702b0a70bdbf0fca8c41
  [] [] 
  []
 
@@ -647,6 +1028,7 @@ Overfull \hbox (2.95746pt too wide) in alignment at lines 551--562
 AED: lastpage setting LastPage
 [4] (./robert_stein_cv.aux)
 Package rerunfilecheck Info: File `robert_stein_cv.out' has not changed.
+<<<<<<< HEAD
 (rerunfilecheck)             Checksum: 1D50D8C1DA29F863572ACB6A05081243;1611.
  ) 
 Here is how much of TeX's memory you used:
@@ -657,5 +1039,17 @@ Here is how much of TeX's memory you used:
  403910 words of font info for 43 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  96i,11n,103p,1204b,420s stack positions out of 5000i,500n,10000p,200000b,80000s
+=======
+(rerunfilecheck)             Checksum: EE093D373DD12DCFA013BBDBFD8B32D0;1488.
+ ) 
+Here is how much of TeX's memory you used:
+ 15845 strings out of 476476
+ 280558 string characters out of 5812529
+ 669095 words of memory out of 5000000
+ 36112 multiletter control sequences out of 15000+600000
+ 403910 words of font info for 43 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 88i,11n,95p,1204b,422s stack positions out of 5000i,500n,10000p,200000b,80000s
+>>>>>>> 41d66b92caa392697d20702b0a70bdbf0fca8c41
 
 Output written on robert_stein_cv.pdf (4 pages).
