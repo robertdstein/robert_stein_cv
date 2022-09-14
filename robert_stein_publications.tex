@@ -1,0 +1,134 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Plasmati Graduate CV
+% LaTeX Template
+% Version 1.0 (24/3/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Author: Robert Stein (via Federica Bradascio)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[a4paper,10pt]{article} % Default font size and paper size
+
+%\usepackage{fontspec} % For loading fonts
+%\defaultfontfeatures{Mapping=tex-text}
+%\setmainfont[SmallCapsFont = Fontin SmallCaps]{Fontin} % Main document font
+
+\usepackage{xunicode,xltxtra,url,parskip} % Formatting packages
+
+\usepackage[usenames,dvipsnames]{xcolor} % Required for specifying custom colors
+
+\usepackage[big]{layaureo} % Margin formatting of the A4 page, an alternative to layaureo can be \usepackage{fullpage}
+% To reduce the height of the top margin uncomment: \addtolength{\voffset}{-1.3cm}
+
+\usepackage{hyperref} % Required for adding links	and customizing them
+\definecolor{linkcolour}{rgb}{0,0.2,0.6} % Link color
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,citecolor=linkcolour,linkcolor=linkcolour} % Set link colors throughout the document
+%\hypersetup{citecolor=blue, filecolor=blue,linkcolor=blue, urlcolor=blue}
+
+%multi-row
+\usepackage{multirow}
+\usepackage{booktabs}
+\usepackage{longtable}
+
+\usepackage{titlesec} % Used to customize the \section command
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule] % Text formatting of sections
+\titlespacing{\section}{0pt}{3pt}{3pt} % Spacing around sections
+
+
+% Pié di pagina fisso
+\usepackage{lastpage}
+%\cfoot{\thepage\ di \pageref{LastPage}}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\lhead{}                %intestazione sinistra
+\chead{}               %intestazione centrale
+\rhead{} 			%intestazione destra
+\lfoot{Publications \ of \textsc{Robert Stein}} %pié di pagina sinistro
+\cfoot{} %pié di pagina centrale 
+%\rfoot{\\thepage~/ \pageref{LastPage}} %pié di pagina destro
+\renewcommand{\headrulewidth}{0pt} %linea separazione intestazione
+\renewcommand{\footrulewidth}{0.5pt} %linea separazione pié di pagina
+\fancyfoot[LE,RO]{\thepage~/ \pageref{LastPage}}%
+
+\usepackage{array}
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+
+\renewcommand{\refname}{Publications}% changes default name Bibliography to References
+
+
+\begin{document}
+
+%\pagestyle{empty} % Removes page numbering
+
+%\parpic[r]{\includegraphics[width=0.27\textwidth]{FB_picture.pdf}}
+\font\fb=''[cmr10]'' % Change the font of the \LaTeX command under the skills section
+\section{Selected Peer-Reviewed Publications}
+\begin{longtable}{L{10mm} p{126mm}}
+	
+	\bf 2020 & \textsc{M. M.~Kasliwal} et al.,
+	\emph{\href{https://arxiv.org/abs/2006.11306}{Kilonova Luminosity Function Constraints based on Zwicky Transient Facility searches for 13 Neutron Star Mergers}}
+	(accepted)\\
+	&\emph{Developed one of three analysis pipelines used for realtime data analysis in GW follow-up. Lead or contributed to many of the individual GW follow-up campaigns, performed in real-time. Contributed to the post-search data analysis, including estimates of coverage and the statistical interpretation of non-detections.}\\
+	&\\	
+	
+	& \textsc{R.~Stein} et al.,
+	\emph{\href{https://arxiv.org/abs/2005.05340}{A high-energy neutrino coincident with a tidal disruption event}}
+	(accepted)\\
+	&\emph{Developed the neutrino follow-up program, led many of the neutrino campaigns. Created the program analysis pipeline, led additional post-search follow-up. Identified the Tidal Disruption Event AT2019dsg as a likely neutrino source, led the multi-wavelength modelling, statistical analysis and neutrino data analysis.}\\
+	&\\	
+	
+	& \textsc{V.~Paliya} et al.,
+	\emph{\href{https://arxiv.org/abs/2003.06012}{Multi-Frequency Observations of the Candidate Neutrino Emitting Blazar BZB J0955+3551}} 2020, ApJ, 902, 29\\
+	&\emph{Performed the statistical analysis of chance coincidence,  led neutrino data analysis.}\\
+	&\\	
+	
+	& \textsc{A.~Franckowiak} et al.,
+	\emph{\href{https://arxiv.org/abs/2001.10232}{Patterns in the multi-wavelength behavior of candidate neutrino blazars}}
+	2020, ApJ, 893, 162\\
+	&\emph{Contributed to the discussion of statistical analysis and interpretation.}\\
+	&\\	
+	
+	& \textsc{S. van Velzen} et al.,
+	\emph{\href{https://arxiv.org/abs/2001.01409}{Seventeen Tidal Disruption Events from the First Half of ZTF Survey Observations: Entering a New Era of Population Studies}}
+	(accepted)\\
+	&\emph{Technical implementation of filtering and analysis pipeline, code development}\\
+	&\\	
+\end{longtable}
+
+\section{Selected Proceedings and Publications in Prep.}
+
+\begin{longtable}{L{10mm} p{126mm}}
+
+		\bf 2020 & \textsc{T. Ahumada et al.},
+		\emph{Ab Whiskey: Identification of the Afterglow of the Short-Duration Gamma-Ray Burst GRB 200826A with the Zwicky Transient Facility},
+		(in prep.)\\
+		&\emph{Created analysis pipeline. Participated in all individual GRB follow-up campaigns, performed real-time data analysis to identify candidate afterglows.}\\
+		&\\	
+		
+		& \textsc{S. Reusch et al.},
+		\emph{Observations of bright nuclear transient AT2019fdr coincident with high-energy neutrino IceCube-200530A},
+		(in prep.)\\
+		&\emph{My analysis pipeline was used for real-time data analysis, participated in all neutrino follow-up campaigns. Led the both statistical and neutrino data analysis of this work, and contributed radio data as PI of a successful VLA DDT proposal.}\\
+		&\\	
+		%	& \textsc{IceCube Collaboration},
+		%	\emph{Search for high-energy neutrinos from tidal disruption events},
+		%	(in prep.)\\
+		%	&\\	
+	
+		\bf 2019 & \textsc{R.~Stein for the IceCube Collaboration},
+	\emph{\href{https://arxiv.org/abs/1908.08547}{Search for Neutrinos from Populations of Optical Transients}},
+	PoS(ICRC2019)1016\\
+	&\emph{Developed likelihood analysis code, used by the IceCube collaboration for neutrino astronomy searches. Used this code to performed TDE-neutrino correlation study. Compiled a catalogue of TDEs based on published examples in the literature. Developed code to perform additional cosmology calculations for deriving the diffuse flux associated with a neutrino source population, and used this to set limits on the contribution of TDEs to the neutrino flux.}\\
+	&\\
+\end{longtable}
+
+\end{document}

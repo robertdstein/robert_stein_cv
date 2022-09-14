@@ -1,0 +1,114 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Plasmati Graduate CV
+% LaTeX Template
+% Version 1.0 (24/3/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Author: Robert Stein (via Federica Bradascio)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[a4paper,10pt]{article} % Default font size and paper size
+
+%\usepackage{fontspec} % For loading fonts
+%\defaultfontfeatures{Mapping=tex-text}
+%\setmainfont[SmallCapsFont = Fontin SmallCaps]{Fontin} % Main document font
+
+\usepackage{xunicode,xltxtra,url,parskip} % Formatting packages
+
+\usepackage[usenames,dvipsnames]{xcolor} % Required for specifying custom colors
+
+\usepackage[big]{layaureo} % Margin formatting of the A4 page, an alternative to layaureo can be \usepackage{fullpage}
+% To reduce the height of the top margin uncomment: \addtolength{\voffset}{-1.3cm}
+
+\usepackage{hyperref} % Required for adding links	and customizing them
+\definecolor{linkcolour}{rgb}{0,0.2,0.6} % Link color
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,citecolor=linkcolour,linkcolor=linkcolour} % Set link colors throughout the document
+%\hypersetup{citecolor=blue, filecolor=blue,linkcolor=blue, urlcolor=blue}
+
+%multi-row
+\usepackage{multirow}
+\usepackage{booktabs}
+\usepackage{longtable}
+
+\usepackage{titlesec} % Used to customize the \section command
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule] % Text formatting of sections
+\titlespacing{\section}{0pt}{3pt}{3pt} % Spacing around sections
+
+
+% Pié di pagina fisso
+\usepackage{lastpage}
+%\cfoot{\thepage\ di \pageref{LastPage}}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\lhead{}                %intestazione sinistra
+\chead{}               %intestazione centrale
+\rhead{} 			%intestazione destra
+\lfoot{Observing History \ of \textsc{Robert Stein}} %pié di pagina sinistro
+\cfoot{} %pié di pagina centrale 
+%\rfoot{\\thepage~/ \pageref{LastPage}} %pié di pagina destro
+\renewcommand{\headrulewidth}{0pt} %linea separazione intestazione
+\renewcommand{\footrulewidth}{0.5pt} %linea separazione pié di pagina
+\fancyfoot[LE,RO]{\thepage~/ \pageref{LastPage}}%
+
+\usepackage{array}
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+
+\renewcommand{\refname}{Publications}% changes default name Bibliography to References
+
+
+\begin{document}
+
+%\pagestyle{empty} % Removes page numbering
+
+%\parpic[r]{\includegraphics[width=0.27\textwidth]{FB_picture.pdf}}
+\font\fb=''[cmr10]'' % Change the font of the \LaTeX command under the skills section
+
+
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+%\par{\centering \includegraphics[width=0.25\textwidth]{FB_picture4.png} \qquad {\Huge Federica \textsc{Bradascio}}\bigskip\par}
+\par{\centering \qquad {\Huge \textsc{Robert Stein}}\par}
+\par{\centering \qquad \textsc{Observing History}\bigskip\par}
+
+
+\section{Observing History}
+I have not served as PI on any previous P200/Keck proposal. However, as co-I, I have experience observing with both Keck (3 nights), and P200 (2 nights).
+
+%\bigskip
+
+\section{Bibliography}
+\begin{longtable}{L{10mm} p{126mm}}
+	
+	2022& \textsc{R. Stein et al.},
+	\emph{\href{https://arxiv.org/abs/2203.17135}{Neutrino follow-up with the Zwicky Transient Facility: Results from the first 24 campaigns}}
+	(submitted)\\
+	&\emph{Includes Keck/LRIS Spectrum of  SN2019pqh}\\
+	&\\	
+	
+		
+	2021 & \textsc{S. Reusch, R Stein et al.},
+	\emph{\href{https://arxiv.org/abs/2111.09390}{The candidate tidal disruption event AT2019fdr coincident with a high-energy neutrino}},
+	(submitted)\\
+	&\emph{Includes P200/WIRC photometry of AT2019fdr}\\
+	&\\	
+	
+	& \textsc{R.~Stein} et al.,
+	\emph{\href{https://arxiv.org/abs/2005.05340}{A tidal disruption event neutrino coincident with a high-energy neutrino}} 2021, Nat Astron 5, 510-518
+	\\
+	&\emph{Includes Keck/LRIS spectrum and P200/DBSP spectrum of TDE AT2019dsg}\\
+	&\\	
+	
+\end{longtable}
+
+\end{document}
