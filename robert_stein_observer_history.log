@@ -1,9 +1,9 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.11.18)  3 OCT 2023 14:38
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.11.18)  23 JUN 2023 17:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**robert_stein_cv.tex
-(./robert_stein_cv.tex
+**robert_stein_observer_history.tex
+(./robert_stein_observer_history.tex
 LaTeX2e <2020-10-01> patch level 4
 L3 programming layer <2021-02-18>
 (/usr/local/texlive/2021/texmf-dist/tex/latex/base/article.cls
@@ -435,8 +435,8 @@ Package: array 2020/10/01 v2.5c Tabular extension package (FMi)
 \backup@length=\skip76
 \ar@cellbox=\box59
 )
-(./robert_stein_cv.aux)
-\openout1 = `robert_stein_cv.aux'.
+(./robert_stein_observer_history.aux)
+\openout1 = `robert_stein_observer_history.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 68.
 LaTeX Font Info:    ... okay on input line 68.
@@ -580,105 +580,43 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 68.
 LaTeX Info: Redefining \pageref on input line 68.
 LaTeX Info: Redefining \nameref on input line 68.
- (./robert_stein_cv.out) (./robert_stein_cv.out)
+ (./robert_stein_observer_history.out) (./robert_stein_observer_history.out)
 \@outlinefile=\write3
-\openout3 = `robert_stein_cv.out'.
+\openout3 = `robert_stein_observer_history.out'.
 
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
 (lastpage)             ! on input line 68.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 86.
+(Font)              <7> on input line 89.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 86.
+(Font)              <5> on input line 89.
 
-Overfull \hbox (3.35745pt too wide) in alignment at lines 126--155
- [] [] 
+Overfull \hbox (3.60007pt too wide) in paragraph at lines 89--95
+ [][] 
  []
 
 
-Overfull \hbox (3.35745pt too wide) in alignment at lines 159--175
- [] [] 
- []
-
-
-Overfull \hbox (3.35745pt too wide) in alignment at lines 183--219
- [] [] 
- []
-
-
-Overfull \hbox (3.35745pt too wide) in alignment at lines 219--274
- [] [] 
- []
-
-[1
-
-]
-Overfull \hbox (3.35745pt too wide) in alignment at lines 274--318
- [] [] 
- []
-
-
-Overfull \hbox (24.22029pt too wide) in alignment at lines 322--339
- [] [] 
- []
-
-[2]
-Overfull \hbox (3.35745pt too wide) in alignment at lines 343--365
- [] [] 
- []
-
-
-Overfull \hbox (3.35745pt too wide) in alignment at lines 369--385
- [] [] 
- []
-
-[3]
-Overfull \hbox (3.35745pt too wide) in alignment at lines 394--416
- [] [] 
- []
-
-
-Overfull \hbox (3.35745pt too wide) in alignment at lines 416--426
- [] [] 
- []
-
-[4]
-
-LaTeX Font Warning: Font shape `TU/lmr/bx/sc' undefined
-(Font)              using `TU/lmr/bx/n' instead on input line 616.
-
-
-Overfull \hbox (2.95746pt too wide) in alignment at lines 613--645
- [] [] 
- []
-
-
-Overfull \hbox (2.95746pt too wide) in alignment at lines 645--700
- [] [] 
- []
-
-
-Overfull \hbox (2.95746pt too wide) in alignment at lines 703--719
+Overfull \hbox (2.95746pt too wide) in alignment at lines 100--126
  [] [] 
  []
 
 
 AED: lastpage setting LastPage
-[5] (./robert_stein_cv.aux)
+[1
 
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
-Package rerunfilecheck Info: File `robert_stein_cv.out' has not changed.
-(rerunfilecheck)             Checksum: 8C95B0E660D124515F6DA895A46FDFB0;1914.
+] (./robert_stein_observer_history.aux)
+Package rerunfilecheck Info: File `robert_stein_observer_history.out' has not c
+hanged.
+(rerunfilecheck)             Checksum: DDA7C216916A602D1B58319B322F97F0;234.
  ) 
 Here is how much of TeX's memory you used:
- 15715 strings out of 476919
- 277152 string characters out of 5821839
- 655831 words of memory out of 5000000
- 35529 multiletter control sequences out of 15000+600000
- 403910 words of font info for 43 fonts, out of 8000000 for 9000
+ 15699 strings out of 476919
+ 277150 string characters out of 5821839
+ 637696 words of memory out of 5000000
+ 35516 multiletter control sequences out of 15000+600000
+ 403894 words of font info for 41 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 96i,11n,103p,1204b,420s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 96i,11n,103p,1218b,321s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on robert_stein_cv.pdf (5 pages).
+Output written on robert_stein_observer_history.pdf (1 page).
