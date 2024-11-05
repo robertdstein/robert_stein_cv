@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2024.2.8)  4 NOV 2024 20:38
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2024.2.8)  4 NOV 2024 21:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -706,7 +706,12 @@ Overfull \hbox (3.35745pt too wide) in alignment at lines 418--452
 
 [4
 
-] [5] (./robert_stein_publications.tex
+]
+Overfull \hbox (0.58005pt too wide) in alignment at lines 625--631
+ [] [] [] 
+ []
+
+[5] (./robert_stein_publications.tex
 Invalid UTF-8 byte or sequence at line 44 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 53 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 54 replaced by U+FFFD.
