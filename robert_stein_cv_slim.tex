@@ -1,0 +1,733 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Plasmati Graduate CV
+% LaTeX Template
+% Version 1.0 (24/3/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Author: Robert Stein (via Federica Bradascio)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[a4paper,10pt]{article} % Default font size and paper size
+
+%\usepackage{fontspec} % For loading fonts
+%\defaultfontfeatures{Mapping=tex-text}
+%\setmainfont[SmallCapsFont = Fontin SmallCaps]{Fontin} % Main document font
+
+\usepackage{xunicode,xltxtra,url,parskip} % Formatting packages
+
+\usepackage[usenames,dvipsnames]{xcolor} % Required for specifying custom colors
+
+\usepackage[big]{layaureo} % Margin formatting of the A4 page, an alternative to layaureo can be \usepackage{fullpage}
+% To reduce the height of the top margin uncomment: \addtolength{\voffset}{-1.3cm}
+
+\usepackage{hyperref} % Required for adding links	and customizing them
+\definecolor{linkcolour}{rgb}{0,0.2,0.6} % Link color
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,citecolor=linkcolour,linkcolor=linkcolour} % Set link colors throughout the document
+%\hypersetup{citecolor=blue, filecolor=blue,linkcolor=blue, urlcolor=blue}
+
+%multi-row
+\usepackage{multirow}
+\usepackage{booktabs}
+\usepackage{longtable}
+
+\usepackage{titlesec} % Used to customize the \section command
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule] % Text formatting of sections
+\titlespacing{\section}{0pt}{2.8pt}{2.8pt} % Spacing around sections
+
+
+% Pié di pagina fisso
+\usepackage{lastpage}
+%\cfoot{\thepage\ di \pageref{LastPage}}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\lhead{}                %intestazione sinistra
+\chead{}               %intestazione centrale
+\rhead{} 			%intestazione destra
+\lfoot{Curriculum Vitae \ of \textsc{Robert Stein}} %pié di pagina sinistro
+\cfoot{} %pié di pagina centrale 
+%\rfoot{\\thepage~/ \pageref{LastPage}} %pié di pagina destro
+\renewcommand{\headrulewidth}{0pt} %linea separazione intestazione
+\renewcommand{\footrulewidth}{0.5pt} %linea separazione pié di pagina
+\fancyfoot[LE,RO]{\thepage~/ \pageref{LastPage}}%
+
+\usepackage{array}
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+
+\renewcommand{\refname}{Publications}% changes default name Bibliography to References
+
+
+\begin{document}
+	
+	%\pagestyle{empty} % Removes page numbering
+	
+	%\parpic[r]{\includegraphics[width=0.27\textwidth]{FB_picture.pdf}}
+	\font\fb=''[cmr10]'' % Change the font of the \LaTeX command under the skills section
+	
+	
+	
+	%----------------------------------------------------------------------------------------
+	%	NAME AND CONTACT INFORMATION
+	%----------------------------------------------------------------------------------------
+	%\par{\centering \includegraphics[width=0.25\textwidth]{FB_picture4.png} \qquad {\Huge Federica \textsc{Bradascio}}\bigskip\par}
+	\par{\centering \qquad {\Huge \textsc{Robert Stein}}\par}
+	\par{\centering \qquad \textsc{Curriculum Vitae}\par}
+	\par{\centering \qquad \textsc{Multi-Messenger Astronomy | Tidal Disruption Events | Machine Learning}\bigskip\par}
+	
+	\section{Personal Data}
+	
+	\begin{tabular}{rl}
+		\textsc{Place and Date of Birth:} & London  | 10 June 1995 \\
+		%\textsc{Address:} & Eichbuschallee 51, Berlin, Germany\\
+		\textsc{Citizenship:} & British \& Irish\\
+		\textsc{Email:} & \href{mailto:rdstein@caltech.edu}{rdstein@caltech.edu} \\
+		\textsc{Website:} & \href{https://robertdstein.github.io}{robertdstein.github.io} \\
+		%\textsc{Orcid:} & \href{https://orcid.org/0000-0003-2434-0387}{0000-0003-2434-0387} \\
+	\end{tabular}
+	%----------------------------------------------------------------------------------------
+	%	RESEARCH
+	%----------------------------------------------------------------------------------------
+	%\section{Research}
+	%\begin{longtable}{r| p{108mm}}	
+	%
+	%\textsc{1 July. 2017 -- present}& {\parbox{110mm}{\rule{0pt}{2pt}PhD student in \href{https://www-zeuthen.desy.de/~afrancko/}{Multi-Messenger Group}, \textbf{DESY Zeuthen}}}\\
+	%& {\parbox{108mm}{\rule{0pt}{2pt}\small{\begin{itemize}
+	%				\item Member of the IceCube collaboration. Developed likelihood analysis code \emph{\href{https://github.com/IceCubeOpenSource/flarestack}{Flarestack}}, used by collaboration members for several cross-correlation analyses. Performed the first cross-correlation analysis of \href{https://arxiv.org/abs/1908.08547}{neutrinos and tidal disruption events}. Served as the realtime shifter for two years, and led the response to many IceCube neutrino alerts. 
+	%				\item Contributor to \emph{\href{https://arxiv.org/abs/1904.05922}{Ampel}} platform. Developed the \emph{\href{https://github.com/robertdstein/ampel_followup_pipeline}{Ampel Follow-up Pipeline}} to identify objects coincident with external triggers, used for ZTF multi-messenger follow-up campaigns. 
+	%				\item Member of the the ZTF collaboration. Led many ZTF neutrino follow-up campaigns. Identified the tidal disruption event \href{https://arxiv.org/abs/2005.05340}{AT2019dsg} as a candidate neutrino source. Led or participated in many ZTF searches for electromagnetic counterparts to gravitational waves and gamma-ray bursts.
+	%			\end{itemize}}}}\\
+%\multicolumn{2}{c}{} \\
+%
+%\textsc{Nov. 2015 -- July 2016} & \parbox{108mm}{\rule{0pt}{2pt}Master student in \href{http://www.iexp.uni-hamburg.de/groups/astroparticle/en/}{Astroparticle Group}, \textbf{University of Hamburg}}\\
+%&{\parbox{108mm}{\rule{0pt}{2pt}\small{
+%			\begin{itemize}
+%				\item Simulated cosmic ray air showers using CORSIKA, using HESS detector as a baseline.
+%				Trained a BDT to identify pixels in IACT camera images that are dominated by direct Cherenkov light from primary particles. 
+%				\item Developed a generic method to reconstruct cosmic ray events using the distribution of measured direct Cherenkov emission across cameras. Method reached cosmic ray charge resolution of $\sim$1 on simulated data, which would be sufficient for composition studies. Estimated performance expected for various CTA geometries.
+%			\end{itemize}}}}\\
+%\multicolumn{2}{c}{} \\
+%\end{longtable}
+
+%\bigskip
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+%\section{Academic Career}
+
+\begin{longtable}{R{26mm}|p{110mm}}
+
+%\textsc{1 Sep. 2016 - today}& {\parbox{110mm}{\rule{0pt}{2pt}Member of the IceCube Collaboration}}\\
+%\multicolumn{2}{c}{} \\
+
+\textsc{July 2017 --}& {\parbox{108mm}{\rule{0pt}{2pt}PhD in \textsc{}\textsc{Experimental Physics},}}\\
+\textsc{Nov. 2021}& \normalsize\textbf{Humboldt University of Berlin / DESY Zeuthen}\\
+& Thesis: ``\emph{\href{https://github.com/robertdstein/kaobook/raw/master/dissertation_stein_robert.pdf}{Search for Multi-Messenger Transients with IceCube and ZTF}}"\\
+&\small{Research Advisor:} \normalsize \textsc{A. Franckowiak}\\
+& {\parbox{108mm}{\rule{0pt}{2pt}\normalsize{Graded ``\emph{Summa cum laude}'' (with the highest distinction)}}}\\
+& \begin{itemize}
+\item Cross-correlation of neutrinos with multi-wavelength catalogues
+\item Led response to neutrino alerts as the \emph{IceCube realtime shifter}
+\item ZTF follow-up of neutrino/gravitational wave/GRB events
+%	\item Participated in ZTF GW/GRB follow-up program.
+\end{itemize}\\
+\multicolumn{2}{c}{} \\
+
+\textsc{Sep. 2013 --}& {\parbox{108mm}{\rule{0pt}{2pt}MSci in \textsc{}\textsc{Physics with a Year In Europe},}}\\
+\textsc{June 2017}& \normalsize\textbf{Imperial College London / University of Hamburg}\\
+& Thesis: ``\emph{\href{https://robertdstein.github.io/documents/robert_stein_master_thesis.pdf}{Reconstruction of Charge Number of Heavy Cosmic Rays using Cherenkov Light}}"\\
+&\small{Research Advisor:} \normalsize \textsc{D. Horns} (University of Hamburg)\\
+& {\parbox{108mm}{\rule{0pt}{2pt}\normalsize{Graduated with First Class Honours}}}\\
+%& \begin{itemize}
+%	\item Development of novel reconstruction method for heavy cosmic rays detected by IACTs, using direct Cherenkov light
+%%	\item Estimates of performance for simulated CTA geometries
+%\end{itemize}\\
+\multicolumn{2}{c}{} \\
+%------------------------------------------------
+\end{longtable}
+
+\section{Academic Career}
+
+\begin{longtable}{R{26mm}|p{110mm}}
+
+%\textsc{1 Sep. 2016 - today}& {\parbox{110mm}{\rule{0pt}{2pt}Member of the IceCube Collaboration}}\\
+%\multicolumn{2}{c}{} \\
+
+\textsc{Nov. 2021 --}& {\parbox{108mm}{\rule{0pt}{2pt}Postdoctoral Scholar in \textsc{}\textsc{Astronomy},}}\\
+\textsc{Present}& \normalsize\textbf{California Institute of Technology}\\
+&\small{Mentor:} \normalsize \textsc{M. M. Kasliwal}\\
+& \begin{itemize}
+\item ZTF follow-up of neutrino/gravitational wave/GRB events
+\item WINTER data analysis and multi-messenger follow-up
+\item Development of TDE photometric classifier: \texttt{tdescore}
+\end{itemize}\\
+\multicolumn{2}{c}{} \\
+
+%------------------------------------------------
+\end{longtable}
+
+%----------------------------------------------------------------------------------------
+%	PRESENTATIONS
+%----------------------------------------------------------------------------------------
+
+\section{Seminars, Colloquia and Conference Talks}
+
+18 invited talks, most recently Caltech Astronomy Colloquium (2023)
+\\
+
+%\begin{longtable}{R{26mm}|p{110mm}}
+
+%	\textsc{21\textsuperscript{th} June 2023} & {\textsc{Contributed Talk}, Transient and Variable Universe Conference, Urbana-Champaign, \normalsize{USA}}\\
+%	& ``\emph{tdescore: An accurate photometric classifier for TDEs}''  \\
+%	\multicolumn{2}{c}{} \\
+%	
+%	\textsc{2\textsuperscript{nd} June 2023} & {\textsc{Contributed Talk}, 75\textsuperscript{th} Anniversary Palomar Science Meeting, Pasadena, \normalsize{USA}}\\
+%	& ``\emph{New neutrino sources with the Palomar Observatory}''  \\
+%	\multicolumn{2}{c}{} \\
+
+%	\textsc{24\textsuperscript{th} May 2023} & {\textsc{Invited Talk}, Caltech Astronomy Colloquium, Pasadena, \normalsize{USA}}\\
+%	& ``\emph{Chasing Ghosts:  Searching for Electromagnetic Counterparts to High-Energy Neutrinos}''  \\
+%	\multicolumn{2}{c}{} \\
+%	
+%	\textsc{20\textsuperscript{th} Mar 2023} & {\textsc{Invited Plenary Talk}, 86\textsuperscript{th} DPG Meeting (SMuK), Dresden, \normalsize{DE}}\\
+%	& ``\emph{Black Holes, Shredded Stars and Cosmic Neutrinos}''  \\
+%	\multicolumn{2}{c}{} \\
+%	
+%	\textsc{1\textsuperscript{st} Nov. 2022} & {\textsc{Invited Talk}, PSU GAPP Seminar, State College, \normalsize{USA}}\\
+%	& ``\emph{Search for electromagnetic counterparts to high-energy neutrinos}''  \\
+%	\multicolumn{2}{c}{} \\
+%	
+%	\textsc{27\textsuperscript{th} Oct. 2022} & {\textsc{Invited Talk}, Cornell SMBH Workshop, Ithaca, \normalsize{USA}}\\
+%	& ``\emph{Neutrinos and TDEs}''  \\
+%	\multicolumn{2}{c}{} \\
+%	
+%	\textsc{29\textsuperscript{th} Sep. 2022} & {\textsc{Invited Talk}, 18\textsuperscript{th} Vulcano Workshop on Frontier Objects in Astrophysics and Particle Physics, Elba, \normalsize{IT}}\\
+%	& ``\emph{A tidal disruption event coincident with a high-energy neutrino}''  \\
+%	\multicolumn{2}{c}{} \\
+%	
+%	\textsc{16\textsuperscript{th} Sep. 2022} & {\textsc{Invited Talk},  DESY Astroparticle Seminar, Zeuthen, \normalsize{DE}}\\
+%	& ``\emph{WINTER: a new IR telescope for time-domain and multi-messenger science}''  \\
+%	\multicolumn{2}{c}{} \\
+%	
+%	\textsc{14\textsuperscript{th} Sep. 2022} & {\textsc{Invited Talk},  IR Astronomy in Antarctica Workshop, \normalsize{FR}}\\
+%	& ``\emph{High-energy neutrinos and Tidal Disruption Events}''  \\
+%	\multicolumn{2}{c}{} \\
+%	
+%%	\textsc{16\textsuperscript{th} Sep. 2022} & {\textsc{Contributed Talk},  Time-Domain Astronomy and Multi-Messenger Workshop (TDAMM), Annapolis, \normalsize{USA}}\\
+%%	& ``\emph{Tidal Disruption Events in the TDAMM era}''  \\
+%%	\multicolumn{2}{c}{} \\
+%	
+%	\textsc{19\textsuperscript{th} Aug. 2022} & {\textsc{Invited Talk},  UMD Seminar, College Park, \normalsize{USA}}\\
+%	& ``\emph{Neutrino Follow-up with the Zwicky Transient Facility}''  \\
+%	\multicolumn{2}{c}{} \\
+%	
+%%	\textsc{11\textsuperscript{th} Aug. 2022} & {\textsc{Contributed Talk},  TeV Particle Astrophysics (TeVPA), Kingston, \normalsize{CA}}\\
+%%	& ``\emph{Neutrino follow-up with the Zwicky Transient Facility}''  \\
+%%	\multicolumn{2}{c}{} \\
+%%	
+%%	\textsc{16\textsuperscript{th} June 2022} & {\textsc{Contributed Talk}, 240\textsuperscript{th} American Astronomical Society, Pasadena, \normalsize{USA}}\\
+%%	& ``\emph{Neutrino follow-up with the Zwicky Transient Facility}''  \\
+%%	\multicolumn{2}{c}{} \\
+%	
+%%	\textsc{3\textsuperscript{rd} June 2022} & {\textsc{Contributed Poster}, 30\textsuperscript{th} International Conference on Neutrino Physics (Neutrino), \normalsize{KR}}\\
+%%	& ``\emph{Neutrino follow-up with the Zwicky Transient Facility}''  \\
+%%	\multicolumn{2}{c}{} \\	
+%	
+%%	\textsc{16\textsuperscript{th} Feb. 2022} & {\textsc{Contributed Talk}, IR2021, \normalsize{JP}}\\
+%%	& ``\emph{High-energy neutrino sources in the IR}''  \\
+%%	\multicolumn{2}{c}{} \\
+%	
+%%	\textsc{15\textsuperscript{th} Sep. 2021} & {\textsc{Contributed Talk}, Astronomische Gesellschaft Annual Meeting, \normalsize{DE}}\\
+%%	& ``\emph{The ZTF Neutrino Follow-up Program}''  \\
+%%	\multicolumn{2}{c}{} \\
+%	
+%%	\textsc{10\textsuperscript{th} Sep. 2021} & {\textsc{Contributed Talk}, Keck Science Meeting, \normalsize{San Diego, USA}}\\
+%%	& ``\emph{A tidal disruption event coincident with a high-energy neutrino}''  \\
+%%	\multicolumn{2}{c}{} \\
+%	
+%	\textsc{13\textsuperscript{th} July 2021} & {{\textsc{Invited Plenary Highlight Talk}, 38\textsuperscript{th} International Cosmic Ray Conference (ICRC)}, \normalsize{Berlin, DE}}\\
+%	&``\emph{\href{https://icrc2021-venue.desy.de/channel/video/Highlight-A-tidal-disruption-event-coincident-with-a-high-energy-neutrino/79fcc0342e13940b21b28c4e84063972/66}{A tidal disruption event coincident with a high-energy neutrino}}''  \\
+%	\multicolumn{2}{c}{} \\
+%	
+%	\textsc{6\textsuperscript{th} July 2021} & {\textsc{Invited Talk}, AIRUB science seminar, \normalsize{Bochum, DE}}\\
+%	& ``\emph{Neutrinos from shredded stars}''  \\
+%	\multicolumn{2}{c}{} \\
+%	
+%	\textsc{29\textsuperscript{th} June 2021}& \textsc{Invited Talk}, European Astronomical Society, \normalsize{Leiden, NL}\\
+%	& ``\emph{Neutrinos from tidal disruption events}''  \\
+%	\multicolumn{2}{c}{} \\
+%	
+%	\textsc{16\textsuperscript{th} June 2021} & {\textsc{Invited Talk}, LIGO-GRITTS seminar, \normalsize{Pasadena/Cambridge, USA}}\\
+%	& ``\emph{A tidal disruption event coincident with a high-energy neutrino}''  \\
+%	\multicolumn{2}{c}{} \\
+%	
+%	\textsc{10\textsuperscript{th} Dec. 2020} & {\textsc{Invited Talk}, Cosmic Rays and Neutrinos in the Multi-Messenger Era, \normalsize{Paris, FR}}\\
+%	& ``\emph{Neutrinos from tidal disruption events}''  \\
+%	\multicolumn{2}{c}{} \\
+%	
+%	\textsc{14\textsuperscript{th} Oct. 2020} & {\textsc{Invited Talk}, ASTRON Astrolunch, \normalsize{Dwingeloo, NL}}\\
+%	& ``\emph{A high-energy neutrino coincident with a tidal disruption event}''  \\
+%	\multicolumn{2}{c}{} \\
+%	
+%	\textsc{25\textsuperscript{th} Aug. 2020} & {\textsc{Invited Talk}, NASA GSFC ASD Colloquium, \normalsize{Greenbelt, USA}}\\
+%	& ``\emph{A high-energy neutrino coincident with a tidal disruption event}''  \\
+%	\multicolumn{2}{c}{} \\
+%	
+%	
+%	%\textsc{22 June - 2 July 2020} & {\textsc{Poster}, 29\textsuperscript{th} International Conference on Neutrino Physics (Neutrino), \normalsize{Chicago, USA}}\\
+%	%& ``\emph{\href{https://robertdstein.github.io/documents/neutrino_2020_347_stein.pdf}{A high-energy neutrino coincident with a tidal disruption event}}''  \\
+%	%\multicolumn{2}{c}{} \\
+%	
+%	\textsc{5\textsuperscript{th} June 2020} & {\textsc{Invited Talk}, DESY Astroparticle Seminar, \normalsize{Zeuthen, DE}}\\
+%	& ``\emph{A high-energy neutrino coincident with a tidal disruption event}''  \\
+%	\multicolumn{2}{c}{} \\
+%	
+%	%\textsc{17 Dec. 2019} & {\textsc{Talk}, TEXAS Symposium for Relativistic Astrophysics, \normalsize{Portsmouth, UK}}\\
+%	%& ``\emph{The IceCube Realtime System}''  \\
+%	%\multicolumn{2}{c}{} \\
+%	
+%	\textsc{26\textsuperscript{th} Oct. 2019} & {\textsc{Invited Talk}, PAHEN Conference, \normalsize{Berlin, DE}}\\
+%	& ``\emph{Neutrinos from optical transients with IceCube}''  \\
+%	\multicolumn{2}{c}{} \\
+%	
+%	%\textsc{24 July-1 Aug. 2019} & {{\textsc{Talk}, 36\textsuperscript{th} International Cosmic Ray Conference (ICRC)}, \normalsize{Madison, USA}}\\
+%	%& ``\emph{Search for Neutrinos from Populations of Optical Transients}''  \\
+%	%\multicolumn{2}{c}{} \\
+%	
+%	%\textsc{25 - 29 Mar. 2019} & {\textsc{Talk}, The New Era of Multi-Messenger Astrophysics, \normalsize{Groningen, NL}}\\
+%	%& ``\emph{Search for High-Energy Neutrinos from Populations of Optical Transients}''  \\
+%	%\multicolumn{2}{c}{} \\
+%	
+%	%\textsc{27-31 Aug. 2018 } & {\textsc{Poster}, TeV Particle Astrophysics (TeVPA), \normalsize{Berlin, DE}}\\
+%	%& ``\emph{\href{https://robertdstein.github.io/documents/robert_stein_TeVPA_2018_poster.pdf}{Probing the Tidal Disruption of Stars by Supermassive Black Holes with the IceCube Neutrino Observatory}}''  \\
+%	%\multicolumn{2}{c}{} \\
+%	
+%	\textsc{30\textsuperscript{th} July 2018} & {\textsc{Invited Talk}, ESO Thirty Minute Talk, \normalsize{Santiago, CL}}\\
+%	& ``\emph{ZTF and the AMPEL Broker: Providing a realtime public astronomy survey}''  \\
+%	\multicolumn{2}{c}{} \\
+%	
+%	%\textsc{20-26 Jan. 2018 } & {\textsc{Talk}, Using Tidal Disruption Events to Study Super-Massive Black Holes, \normalsize{Aspen, USA}}\\
+%	%& ``\emph{The search for high-energy neutrinos: a TDE stacking analysis}'' \\
+%	%\multicolumn{2}{c}{} \\
+%	
+%\end{longtable}
+%
+
+\section{Selected Telescope Time Awarded (PI only)}
+Keck (32 hours, 4 semesters), Palomar (18 hours, 2 semester), Gemini (9 hours, 3 semesters) VLA (6 hours, DDT), Chandra (25ks, DDT)
+
+\clearpage
+
+\section{Scholarships, Awards and Honours}
+
+\begin{longtable}{R{26mm}|p{110mm}}
+	\textsc{11\textsuperscript{th} May 2023} & Winner of the Global Neutrino Network (GNN) Thesis Prize\\
+	\multicolumn{2}{c}{} \\
+	\textsc{22\textsuperscript{nd} Mar 2023} & Winner of the DPG (German Physical Society) Dissertation Prize for the Matter and Cosmos division, DPG Annual Meeting, Dresden\\
+	\multicolumn{2}{c}{} \\
+	\textsc{26\textsuperscript{th} Mar 2021} & Winner of the \emph{IceCube Impact Award}, IceCube Spring 2021 Meeting \\
+	\multicolumn{2}{c}{} \\
+	\textsc{2\textsuperscript{nd} July 2020} & Winner of first session poster competition, Neutrino 2020 Conference \\
+	\multicolumn{2}{c}{} \\
+	\textsc{16\textsuperscript{th} Oct 2019} & Winner of the annual DESY Science Slam, DESY Hamburg\\
+	\multicolumn{2}{c}{} \\
+	\textsc{21\textsuperscript{st} Nov 2018} & Winner of the annual Zeuthen Science Slam, DESY Zeuthen\\
+	\multicolumn{2}{c}{} \\
+	%	\textsc{June - Sep. 2015}  & DAAD RISE Scholarship, TU Dortmund\\
+	%	\multicolumn{2}{c}{} \\
+	%	\textsc{Oct. 2013 - June 2017} & President's Undergraduate Scholarship, Imperial College London\\
+	%	\multicolumn{2}{c}{} \\
+\end{longtable}
+%%\begin{longtable}{r | p{108mm}}	
+%\begin{longtable}{R{28mm}|p{108mm}}
+%\textsc{Feb. 2024 --}& {\parbox{108mm}{\rule{0pt}{2pt}Keck Observatory Program (PI) - 8 hours, 1 semester}}\\
+%\textsc{Jul. 2024}&  \normalsize\emph{A search for missing Tidal Disruption Events}\\
+%\multicolumn{2}{c}{} \\
+%\textsc{Oct. 2023 --}& {\parbox{108mm}{\rule{0pt}{2pt}Chandra Program (PI) - 25 ks, DDT}}\\
+%\textsc{Nov. 2023}&  \normalsize\emph{Unveiling the nature of a candidate multi-messenger supernova}\\
+%\multicolumn{2}{c}{} \\
+%\textsc{Aug. 2023 --}& {\parbox{108mm}{\rule{0pt}{2pt}Palomar P48 + P60 Program (PI) - 18 hours, 1 semester}}\\
+%\textsc{Jan. 2024}&  \normalsize\emph{Uncovering the dustiest transients with ZTF and WINTER}\\
+%\multicolumn{2}{c}{} \\
+%\textsc{Feb. 2023 --}& {\parbox{108mm}{\rule{0pt}{2pt}Gemini Program (PI) - 6 hours, 2 semesters}}\\
+%\textsc{Feb. 2024}&  \normalsize\emph{Spectroscopic Classification of Candidate Neutrino Sources}\\
+%\multicolumn{2}{c}{} \\
+%\textsc{Aug. 2022 --}& {\parbox{108mm}{\rule{0pt}{2pt}Keck Observatory Program (PI) - 16 hours, 2 semesters}}\\
+%\textsc{Jul. 2023}&  \normalsize\emph{Candidate Neutrino Sources}\\
+%\multicolumn{2}{c}{} \\
+%%\textsc{Oct. 2020 --}& {\parbox{108mm}{\rule{0pt}{2pt}Australia Telescope Compact Array Program (Co-I)}}\\
+%%\textsc{Mar. 2021}&  \normalsize\emph{Radio emission from stellar tidal disruption flares}\\
+%%\multicolumn{2}{c}{} \\
+%%\textsc{Sep. 2020 --}& {\parbox{108mm}{\rule{0pt}{2pt}Gran Telescopio Canarias Program (Co-I)}}\\
+%%\textsc{Feb. 2021 }&  \normalsize\emph{Spectroscopic classification of potential neutrino counterparts identified by ZTF}\\
+%%\multicolumn{2}{c}{} \\                                                
+%\textsc{June 2020 --}& {\parbox{108mm}{\rule{0pt}{2pt}Very Large Array Program (PI) - 6 hours, DDT}}\\
+%\textsc{Nov. 2020}&  \normalsize\emph{VLA observations to establish the neutrino counterpart to a giant AGN flare}\\
+%\multicolumn{2}{c}{} \\
+%%\textsc{June 2020 --}& {\parbox{108mm}{\rule{0pt}{2pt} Approved Swift ToOs}}\\
+%%\textsc{Present}&  \normalsize\emph{Various ToO requests}\\
+%%\multicolumn{2}{c}{} \\
+%\end{longtable}
+
+\section{Selected Professional Responsibilities}
+%\begin{longtable}{r | p{108mm}}	
+\begin{longtable}{R{28mm}|p{108mm}}
+\textsc{Reviewer}&  \normalsize\emph{ApJ, MNRAS, PASP (journal reviwer), JCMT,  Gemini (external referee), Caltech Palomar/Keck (TAC member)}\\ 
+\multicolumn{2}{c}{} \\          
+%		\textsc{2021 --}& {\parbox{108mm}{\rule{0pt}{2pt} Proposal Referee and TAC Member}}\\
+%	\textsc{Present}&  \normalsize\emph{JCMT (referee), Gemini (referee), Caltech Palomar/Keck (TAC)}\\
+%	\multicolumn{2}{c}{} \\        
+\textsc{Leadership}& \normalsize\emph{ZTF AGN/TDE Chair (2022-2023), ZTF MMA Co-Convenor (2022-Present), ZTF Publication Board Member (2022-Present)} \\
+& \normalsize\emph{ZTF Collaboration Meeting, Caltech-LANL TDA Workshop, Caltech-LANL Summer School (LOC/SOC)} \\                       
+%	\textsc{May 2022 --}& {\parbox{108mm}{\rule{0pt}{2pt} ZTF AGN/TDE Working Group Chair}}\\
+%	\textsc{Aug. 2023}&  \\
+%	\multicolumn{2}{c}{} \\
+%	\textsc{Nov. 2022 --}& {\parbox{108mm}{\rule{0pt}{2pt} ZTF MMA Working Group Co-Convenor}}\\
+%	\textsc{Present}&  \\
+%	\multicolumn{2}{c}{} \\
+%	\textsc{Oct. 2022 --}& {\parbox{108mm}{\rule{0pt}{2pt} ZTF Publication Board Member}}\\
+%	\textsc{Present}&  \\
+\end{longtable}
+
+%----------------------------------------------------------------------------------------
+%	TEACHING
+%----------------------------------------------------------------------------------------
+\section{Supervision, Teaching and Outreach}
+%\begin{longtable}{r | p{108mm}}	
+\begin{longtable}{R{28mm}|p{108mm}}
+\textsc{Student}& {\parbox{108mm}{\rule{0pt}{2pt}Master's degree student (2 students)}}\\
+\textsc{Supervision}& {\parbox{108mm}{\rule{0pt}{2pt}Bachelor's degree student (1 student)  }} \\
+& {\parbox{108mm}{\rule{0pt}{2pt}Summer undergraduate research fellow (1 student)}}\\
+& {\parbox{108mm}{\rule{0pt}{2pt}High-school students for summer research projects (3 students) }}\\
+\multicolumn{2}{c}{} \\
+\hline
+\multicolumn{2}{c}{} \\
+\textsc{Teaching}& {\parbox{108mm}{\rule{0pt}{2pt}Lecturer: \emph{Annual ZTF Summer School} at \emph{UMN} (July 2022, July 2023)}}\\
+& {\parbox{108mm}{\rule{0pt}{2pt}Teaching Assistant: \emph{Experimental Astroparticle Physics} at \emph{HU Berlin} (Summer Semester 2018, Summer Semester 2019)}}\\
+\multicolumn{2}{c}{} \\
+\hline
+\multicolumn{2}{c}{} \\
+\textsc{Outreach}& {\parbox{108mm}{\rule{0pt}{2pt}\emph{Astronomy on Tap Presenter, International Cosmic Day Volunteer (2 years), `Lange Nacht der Wissenschaft' Volunteer (2 years)}}}\\
+\multicolumn{2}{c}{} \\
+\end{longtable}
+
+%----------------------------------------------------------------------------------------
+%	INTERNSHIPS AND SUMMER SCHOOLS
+%----------------------------------------------------------------------------------------
+
+%\section{Internships and Summer Schools}
+%\section{Research Internships and Physics Summer Schools}
+%\section{Research Internships and Physics Schools}
+%
+%\begin{longtable}{R{28mm}|p{108mm}}
+%
+%\textsc{3 -- 11 Oct. 2018}& \textsc{School for Astroparticle Physics}, \normalsize\textbf{Obertrubach-B\"arnfels, Germany}\\
+%\multicolumn{2}{c}{} \\
+%
+%\textsc{June -- Sep. 2015} & \textsc{DAAD RISE Summer Student Program}, \normalsize\textbf{T.U. Dortmund, DE}\\
+%&{\parbox{108mm}{\rule{0pt}{2pt}\small{Worked on the LHCb Data Analysis, using Python/PyROOT. \\}}}\\
+%&\small{Supervisor:} \normalsize \textsc{T. Tekampe}\\
+%\multicolumn{2}{c}{} \\
+%\end{longtable}
+%
+%\bigskip
+
+
+%%----------------------------------------------------------------------------------------
+%%	CONFERENCES AND WORKSHOP
+%%----------------------------------------------------------------------------------------
+%
+%\section{Conferences and Workshops Attended}
+%
+%\begin{longtable}{R{26mm}|p{110mm}}
+%\textsc{24 July-1 Aug. 2019} & {36\textsuperscript{th} International Cosmic Ray Conference (ICRC)}, \normalsize{Madison}\\
+%\multicolumn{2}{c}{} \\
+%
+%\textsc{2-4 Oct. 2018} & {Very Large Volume Neutrino Telescopes (VLVNT) 2018 Workshop}, \normalsize{Dubna}\\
+%\multicolumn{2}{c}{} \\
+%
+%\textsc{7-8 Oct. 2017} & {MANTS 2017 Meeting}, \normalsize{Marseille}\\
+%\multicolumn{2}{c}{} \\
+%
+%\textsc{3-10 Aug. 2016} & {38\textsuperscript{th} International Conference on High Energy Physics} (ICHEP), \normalsize{Chicago}\\
+%%& Poster presentation and elevator talk in the session ``1' elevator speeches by young scientists'' on: ``\emph{Studies of the impact of magnetic field uncertainties on the physics parameters of the Mu2e experiment}''  \\
+%\multicolumn{2}{c}{} \\
+%
+%\textsc{15-16 June 2016} & {49\textsuperscript{th} Annual Fermilab Users Meeting}, \normalsize{FERMILAB}\\
+%%& Poster presented, 2\textsuperscript{nd} award won on:  ``\emph{Studies of the Impact of Field Uncertainties on Physics Parameters of the Mu2e Experiment}''\\
+%\multicolumn{2}{c}{} \\
+%
+%\textsc{4-6 Dec. 2015}& {Dark Matter at a future hadron collider}, \normalsize{FERMILAB}\\
+%\multicolumn{2}{c}{} \\
+%
+%\end{longtable}
+%\bigskip
+
+
+%----------------------------------------------------------------------------------------
+%	PUBLICATIONS
+%----------------------------------------------------------------------------------------
+
+%\begin{thebibliography}{10}% Bibliography - this is intentionally simple in this template
+%\bibitem{Bradascio:2016hjx}
+%\textsc{F.~Bradascio},
+%\emph{Studies of the Impact of Magnetic Field Uncertainties on Physics Parameters of the Mu2e Experiment},
+%FERMILAB-MASTERS-2016-04.
+%
+%\bibitem{Bradascio:PoS}
+%\textsc{F.~Bradascio},
+%\emph{Studies of the Impact of Magnetic Field Uncertainties on Physics Parameters of the Mu2e Experiment},
+%to appear in  the proceedings of the ICHEP conference.
+%
+%\bibitem{}
+%\textsc{M. Lopes, et al.},
+%\emph{Mu2e Transport Solenoid Cold-Mass Alignment Issues},
+%ASC2016-2LOr1C-04.
+%\end{thebibliography}
+
+%\bibliographystyle{apsrev}
+%%\bibliographystyle{ieeetr}
+%\bibliography{CVbib}{}
+
+
+%\bigskip
+
+%\bigskip
+
+%----------------------------------------------------------------------------------------
+%	AWARDS AND HONORS
+%----------------------------------------------------------------------------------------
+
+%\bigskip
+
+%----------------------------------------------------------------------------------------
+%	OUTREACH
+%----------------------------------------------------------------------------------------
+
+%\section{Outreach}
+%
+%\begin{longtable}{R{26mm}|p{110mm}}
+%\textsc{Nov. 2019} & \textsc{International Cosmic Day 2019}, DESY Zeuthen\\
+%\multicolumn{2}{c}{} \\
+%
+%\textsc{Nov. 2018} & \textsc{International Cosmic Day 2018}, DESY Zeuthen\\
+%\multicolumn{2}{c}{} \\
+%
+%\textsc{March 2018} & \textsc{IceCube Masterclass}, DESY Zeuthen\\
+%\multicolumn{2}{c}{} \\
+%
+%\textsc{Nov. 2017} & \textsc{International Cosmic Day 2017}, DESY Zeuthen\\
+%\multicolumn{2}{c}{} \\
+%
+%\textsc{Oct. 2017} & \textsc{IceCube Masterclass}, DESY {\tiny }Zeuthen\\
+%\multicolumn{2}{c}{} \\
+%\end{longtable}
+%
+%%\bigskip
+
+
+%%----------------------------------------------------------------------------------------
+%%	LINGUISTIC TRAINING SUMMER SCHOOLS
+%%----------------------------------------------------------------------------------------
+%
+%\section{Linguistic Training Summer Schools}
+%\begin{longtable}{R{26mm}|p{110mm}}
+%\textsc{July 2008}& \textsc{English Language Course}, \normalsize\textbf{Hampstead School of English}, London\\
+%&{\parbox{110mm}{\rule{0pt}{2pt}\small{Two weeks English language course at \emph{Proficient User (C1) level}}}}\\
+%\multicolumn{2}{c}{} \\
+%
+%\textsc{July 2007}& \parbox{110mm}{\rule{0pt}{2pt}\textsc{English Language Course}, \normalsize\textbf{Twin English Center London}, Stanford (UK)}\\
+%&{\parbox{110mm}{\rule{0pt}{2pt}\small{Two weeks English language course at \emph{Upper Intermediate level}}}}\\
+%& \small{Grade:} \normalsize{A} \\
+%\multicolumn{2}{c}{} \\
+%
+%\textsc{August 2006}& \textsc{English Language Course}, \normalsize\textbf{Lewis School of English}, Perth (UK)\\
+%&{\parbox{110mm}{\rule{0pt}{2pt}\small{Two weeks English language course at \emph{Intermediate level}}}}\\
+%& {\parbox{110mm}{\rule{0pt}{2pt}\small{Final score:} \\
+%\small{\textsc{Reading:} Higher Intermediate;\\ 
+%\textsc{Writing:} Higher Intermediate;\\ 
+%\textsc{Listening:} Plus Intermediate+;\\ 
+%\textsc{Speaking:} Plus Intermediate+. }}}\\
+%\multicolumn{2}{c}{} \\
+%\end{longtable}
+%
+%%\newpage
+%
+%%\bigskip
+
+
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS 
+%----------------------------------------------------------------------------------------
+
+\section{Additional Information}
+
+\begin{longtable}{rl}
+%\textbf{Advanced Knowledge:} & Bash, Shell, C/C++, Python, {\fb \LaTeX}, Inkscape \setmainfont[SmallCapsFont=Fontin SmallCaps]{Fontin-Regular}\\
+%&\\
+%\textbf{Intermediate Knowledge:} & {\parbox{95mm}{\rule{0pt}{2pt}Root Data Analysis, Matlab}}\\
+%&\\
+%\textbf{Basic Knowledge:} & Mathematica, Awk, MongoDB\\
+%&\\
+
+\textbf{Collaboration Membership} & WINTER, ZTF, GROWTH, LSST-TVSSC\\
+\textbf{Programming Skills:} & Python, PostgreSQL, \LaTeX , Bash, git (Advanced)  \\
+\textbf{Language Skills:} & English (Native Speaker), German (Advanced - C1)  \\
+&\\
+\textbf{Observing Experience:} & Keck: LRIS, NIRES, DEIMOS (8 nights)\\
+&Palomar: WIRC, DBSP, TSpec (13 nights)\\
+& La Silla: NTT (8 nights)\\
+%\textbf{Other:} & TDE chair, mma co-chair?, review MNRAS and something, loc ztf meeting, Caltech-LANL host, other things?  \\
+
+\end{longtable}
+
+%\section{Professional References}
+%\begin{longtable}{lll}
+%\textbf{Professor Anna Franckowiak} &RUB& \href{mailto:franckowiak@astro.ruhr-uni-bochum.de}{franckowiak@astro.ruhr-uni-bochum.de}\\
+%\textbf{Professor Mansi Kasliwal} & Caltech&  \href{mailto:mansi@astro.caltech.edu}{mansi@astro.caltech.edu}\\
+%\textbf{Professor Matthew Graham} & Caltech&  \href{mailto:mjg@caltech.edu}{mjg@caltech.edu} \\
+%\textbf{Professor Marek Kowalski} & DESY&  \href{mailto:marek.kowalski@desy.de}{marek.kowalski@desy.de} \\
+%\end{longtable}
+%
+%
+%%\begin{tabular}{lll}
+%%{Mother tongue:} & \textsc{Italian} &\\
+%%{Other languages:} & \textsc{English}&\\
+%%& \textbf{Listening:} & Good\\
+%%& \textbf{Reading:} & Excellent \\
+%%& \textbf{Writing:} & Good\\
+%%& \textbf{Speaking:} & Fluent\\
+%%\end{tabular}
+%
+%%\bigskip
+%
+%%\newpage
+%%
+%\section{Selected Publications (*peer-reviewed)}
+%
+%- Full list available at \href{https://scholar.google.com/citations?hl=en&user=9OAlaB8AAAAJ&view_op=list_works}{Google Scholar}\\ - \textbf{Stats:} 8754 citations,  h-index 41, i-10 index: 91, 101 peer-reviewed publications\\
+%- 87  GCNs + 11 ATELs + 2 AstroNotes (non-refereed)
+%
+%\begin{longtable}{L{10mm} p{126mm}}
+%
+%\bf 2023 &\emph{\href{https://arxiv.org/abs/2203.17135}{Neutrino Follow-Up with the Zwicky Transient Facility}}\\
+%& \textsc{*\textbf{R. Stein} et al.}, MNRAS, Volume 521, Issue 4\\
+%%	&\emph{Lead author, data analysis, statistical analysis, led follow-up program}\\
+%&\\	
+%
+%&  \emph{\href{https://arxiv.org/abs/2303.03316}{Constraining High-energy Neutrino Emission from Supernovae with IceCube}}\\
+%& {*IceCube Collaboration}, ApJL 949 L12\\
+%&- \textbf{R. Stein} as one of three credited authors\\
+%%	&\emph{Lead author, data analysis, statistical analysis, led follow-up program}\\
+%&\\
+%\bf  & 
+%\emph{\href{https://arxiv.org/abs/2111.09391}{Establishing accretion flares from massive black holes as a major source of high-energy neutrinos}}\\
+%& \textsc{S. van Velzen, \textbf{R. Stein} et al.}, (submitted)\\
+%&\\
+%
+%\bf  & \emph{\href{http://arxiv.org/abs/2312.00139}{{tdescore: An Accurate Photometric Classifier for Tidal Disruption Events}}}\\
+%& \textsc{\textbf{R. Stein} et al.}	(submitted)\\
+%&\\
+%
+%%	\bf &\emph{{Limits on the astrophysical neutrino flux using GRB221009A}}\\
+%%	& \textsc{\textbf{R. Stein}}  (in prep.)\\ 
+%%	&\\
+%
+%\bf &\emph{{SN2023uqf: Potrait of a candidate multi-messenger supernova }}\\
+%& \textsc{\textbf{R. Stein} et al.}  (in prep.)\\ 
+%&\\
+%
+%%	\bf  & \emph{{A data reduction pipeline for WINTER using the mirar framework}}\\
+%%	&\textsc{\textbf{R. Stein} et al.} (in prep.)\\
+%%	&\\
+%
+%\bf 2022 &
+%\emph{\href{https://arxiv.org/abs/2204.00500}{ASAS-SN follow-up of IceCube high-energy neutrino alerts}}\\
+%& \textsc{*J. Necker,  T. de Jaegar, \textbf{R. Stein} et al.}, MNRAS, Volume 516, Issue 2\\
+%%	&\emph{Data analysis, statistical analysis, development of paper}\\
+%&\\	
+%
+%&\emph{\href{https://arxiv.org/abs/2111.09390}{The candidate tidal disruption event AT2019fdr coincident with a high-energy neutrino}}\\
+%& \textsc{*S. Reusch, \textbf{R.~Stein} et al.}, Phys. Rev. Lett. 128, 221101\\
+%%	&\emph{Realtime follow-up and data analysis, statistical analysis, contributed radio data}\\
+%&\\	
+%
+%%	&\emph{Development of statistical analysis and interpretation}\\
+%
+%\bf 2021 &
+%\emph{\href{https://arxiv.org/abs/2110.01631}{Tidal Disruption Events and High-Energy Neutrinos}}\\
+%& \textbf{R. Stein}, PoS(ICRC2021)009\\
+%%	&\emph{Presenter of invited ICRC plenary talk, author of accompanying proceedings}\\
+%&\\
+%
+%
+%&\emph{\href{https://arxiv.org/abs/2005.05340}{A tidal disruption event neutrino coincident with a high-energy neutrino}}\\
+%& \textsc{*\textbf{R. Stein}} et al., 2021, Nat Astron 5, 510-518
+%\\
+%%	&\emph{Developed analysis framework, led follow-up program, modelling, statistical analysis}\\
+%&\\	
+%%	& \textsc{IceCube Collaboration},
+%%	\emph{Search for high-energy neutrinos from tidal disruption events},
+%%	(in prep.)\\
+%%	&\\	
+%%	& \textsc{*S. van Velzen} et al.,
+%%	\emph{\href{https://arxiv.org/abs/2001.01409}{Seventeen Tidal Disruption Events from the First Half of ZTF Survey Observations: Entering a New Era of Population Studies}}
+%%	2021, ApJ, 908, 4\\
+%%	&\emph{Technical implementation of filtering and analysis pipeline, code development}\\
+%%	&\\	
+%
+%\bf 2020 & 
+%\emph{\href{https://arxiv.org/abs/2006.11306}{Kilonova Luminosity Function Constraints based on Zwicky Transient Facility searches for 13 Neutron Star Mergers}}\\
+%& \textsc{*M. M.~Kasliwal, S. Anand, T. Ahumada \textbf{R. Stein} et al.}, ApJ, 905, 145\\
+%%	&\emph{Developed one of three analysis frameworks, realtime follow-up and data analysis}\\
+%&\\	
+%
+%%	& \textsc{*V.~Paliya} et al.,
+%%	\emph{\href{https://arxiv.org/abs/2003.06012}{Multi-Frequency Observations of the Candidate Neutrino Emitting Blazar BZB J0955+3551}} 2020,  ApJ, 902, 29\\
+%%	&\emph{Statistical analysis of chance coincidence probability, led neutrino data analysis}\\
+%%	&\\	
+%
+%%	&\emph{\href{https://arxiv.org/abs/2001.10232}{Patterns in the multi-wavelength behaviour of candidate neutrino blazars}}\\
+%%	& \textsc{*A Franckowiak, S Garrappa, V Paliya, B Shappee, \textbf{R Stein}} et al.,
+%%	2020, ApJ, 893, 162\\
+%%	&\\
+%%	&\emph{Contributed to the discussion and interpretation of neutrino correlation}\\
+%%	&\\	
+%
+%\bf 2019 &
+%\emph{\href{https://arxiv.org/abs/1908.08547}{Search for Neutrinos from Populations of Optical Transients}}\\,
+%& \textsc{\textbf{R.~Stein} for the IceCube Collaboration}, PoS(ICRC2019)1016\\
+%%	&\emph{Developed likelihood analysis code, TDE catalogue compilation, data analysis}\\
+%&\\
+%\end{longtable}
+%
+%\section{Selected Software}
+%\begin{longtable}{L{10mm} p{126mm}}
+%
+%\bf 2023 & \textsc{\textbf{R.~Stein} et al.},
+%\emph{\href{https://github.com/winter-telescope/mirar}{Mirar}} \\
+%&\emph{Photometric reduction  code, used for WINTER, SEDmV2 and DREAMS.}\\
+%&\\	
+%
+%
+%\bf 2020 & \textsc{\textbf{R.~Stein} et al.},
+%\emph{\href{https://github.com/desy-multimessenger/nuztf}{NuZTF}}, DOI: \href{https://doi.org/10.5281/zenodo.4048335}{10.5281/zenodo.4048335}\\
+%&\emph{ZTF MMA analysis code,  used for neutrino, GW and GRB searches.}\\
+%&\\	
+%
+%& \textsc{\textbf{R.~Stein} et al.},
+%\emph{\href{https://github.com/IceCubeOpenSource/flarestack}{Flarestack}}, DOI: \href{https://doi.org/10.5281/zenodo.3619383}{10.5281/zenodo.3619383}\\
+%&\emph{Likelihood analysis  code for neutrino correlation studies}\\
+%\end{longtable}
+%
+\end{document}

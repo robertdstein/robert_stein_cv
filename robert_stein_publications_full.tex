@@ -1,0 +1,181 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Plasmati Graduate CV
+% LaTeX Template
+% Version 1.0 (24/3/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Author: Robert Stein (via Federica Bradascio)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[a4paper,10pt]{article} % Default font size and paper size
+
+\usepackage{doi}
+
+\usepackage{hyperref}
+\usepackage[
+backend=biber,
+style=authoryear,
+sorting=ydnt,
+maxnames=6,
+minnames=5,
+doi=true,
+defernumbers=true
+]{biblatex}
+\addbibresource[label=peer_first]{code/peerreviewfirst.bib}
+\addbibresource[label=peer_major]{code/peerreviewmajor.bib}
+\addbibresource[label=peer_other]{code/peerreviewother.bib}
+\addbibresource[label=peer_ic]{code/peerreviewic.bib}
+\addbibresource[label=proc_first]{code/proceedingsfirst.bib}
+\addbibresource[label=proc_major]{code/proceedingsmajor.bib}
+\addbibresource[label=proc_other]{code/proceedingsother.bib}
+\addbibresource[label=proc_ic]{code/proceedingsic.bib}
+
+\DeclareFieldFormat{doi}{\url{https://doi.org/#1}}
+
+\usepackage{standalone}
+\usepackage{longtable}
+
+%\usepackage{fontspec} % For loading fonts
+%\defaultfontfeatures{Mapping=tex-text}
+%\setmainfont[SmallCapsFont = Fontin SmallCaps]{Fontin} % Main document font
+
+\usepackage{xunicode,xltxtra,url,parskip} % Formatting packages
+
+\usepackage[usenames,dvipsnames]{xcolor} % Required for specifying custom colors
+
+\usepackage[big]{layaureo} % Margin formatting of the A4 page, an alternative to layaureo can be \usepackage{fullpage}
+% To reduce the height of the top margin uncomment: \addtolength{\voffset}{-1.3cm}
+
+\usepackage{hyperref} % Required for adding links	and customizing them
+\definecolor{linkcolour}{rgb}{0,0.2,0.6} % Link color
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,citecolor=linkcolour,linkcolor=linkcolour} % Set link colors throughout the document
+%\hypersetup{citecolor=blue, filecolor=blue,linkcolor=blue, urlcolor=blue}
+
+%multi-row
+\usepackage{multirow}
+\usepackage{booktabs}
+\usepackage{longtable}
+
+\usepackage{titlesec} % Used to customize the \section command
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule] % Text formatting of sections
+\titlespacing{\section}{0pt}{3pt}{3pt} % Spacing around sections
+
+
+% Pié di pagina fisso
+\usepackage{lastpage}
+%\cfoot{\thepage\ di \pageref{LastPage}}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\lhead{}                %intestazione sinistra
+\chead{}               %intestazione centrale
+\rhead{} 			%intestazione destra
+\lfoot{Publications \ of \textsc{Robert Stein}} %pié di pagina sinistro
+\cfoot{} %pié di pagina centrale 
+%\rfoot{\\thepage~/ \pageref{LastPage}} %pié di pagina destro
+\renewcommand{\headrulewidth}{0pt} %linea separazione intestazione
+\renewcommand{\footrulewidth}{0.5pt} %linea separazione pié di pagina
+\fancyfoot[LE,RO]{\thepage~/ \pageref{LastPage}}%
+
+\usepackage{array}
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+
+
+\begin{document}
+
+%\pagestyle{empty} % Removes page numbering
+
+%\parpic[r]{\includegraphics[width=0.27\textwidth]{FB_picture.pdf}}
+%\font\fb=''[cmr10]'' % Change the font of the \LaTeX command under the skills section
+\section*{All Peer-Reviewed Publications}
+
+%- Full list available at \href{https://scholar.google.com/citations?hl=en&user=9OAlaB8AAAAJ&view_op=list_works}{Google Scholar}
+
+%\cite{solares2021multimessenger}
+\subsection*{First-Author Publications}
+
+\begin{refsection}[peer_first]
+	
+	\nocite{*}
+	\printbibliography[heading=none]
+	
+\end{refsection}
+
+\subsection*{Major Contributions}
+
+\begin{refsection}[peer_major]
+	
+	\nocite{*}
+	\printbibliography[heading=none]
+	
+\end{refsection}
+
+\subsection*{As Collaborator}
+
+\begin{refsection}[peer_other]
+	
+	\nocite{*}
+	\printbibliography[heading=none]
+	
+\end{refsection}
+
+\subsection*{As Member of IceCube Collaboration}
+
+\begin{refsection}[peer_ic]
+	
+	\nocite{*}
+	\printbibliography[heading=none]
+	
+\end{refsection}
+
+\bigskip
+\clearpage
+
+
+\section*{Proceedings, Preprints, White Papers}
+
+\subsection*{First-Author}
+
+\begin{refsection}[proc_first]
+	
+	\nocite{*}
+	\printbibliography[heading=none]
+	
+\end{refsection}
+
+\subsection*{Major Contributions}
+
+\begin{refsection}[proc_major]
+	
+	\nocite{*}
+	\printbibliography[heading=none]
+	
+\end{refsection}
+
+\subsection*{As Collaborator}
+
+\begin{refsection}[proc_other]
+	
+	\nocite{*}
+	\printbibliography[heading=none]
+	
+\end{refsection}
+
+\subsection*{As Member of IceCube Collaboration}
+
+\begin{refsection}[proc_ic]
+	
+	\nocite{*}
+	\printbibliography[heading=none]
+	
+\end{refsection}
+
+\end{document}

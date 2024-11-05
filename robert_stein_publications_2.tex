@@ -26,6 +26,8 @@
 \usepackage[big]{layaureo} % Margin formatting of the A4 page, an alternative to layaureo can be \usepackage{fullpage}
 % To reduce the height of the top margin uncomment: \addtolength{\voffset}{-1.3cm}
 
+\usepackage{standalone}
+
 \usepackage{hyperref} % Required for adding links	and customizing them
 \definecolor{linkcolour}{rgb}{0,0.2,0.6} % Link color
 \hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,citecolor=linkcolour,linkcolor=linkcolour} % Set link colors throughout the document
@@ -73,31 +75,30 @@
 \font\fb=''[cmr10]'' % Change the font of the \LaTeX command under the skills section
 \section{Selected Publications (*peer-reviewed)}
 
-- Full list available at \href{https://scholar.google.com/citations?hl=en&user=9OAlaB8AAAAJ&view_op=list_works}{Google Scholar}\\ - \textbf{Stats:} 11656 citations,  h-index 45, i-10 index: 114, 107 peer-reviewed publications\\
+- Full list available at \href{https://scholar.google.com/citations?hl=en&user=9OAlaB8AAAAJ&view_op=list_works}{Google Scholar}\\ - \textbf{Stats:} 9292 citations,  h-index 42, i-10 index: 94, 107 peer-reviewed publications\\
 - 96  GCNs + 11 ATELs + 4 AstroNotes (non-refereed), 78 preprints + proceedings
 
 \begin{longtable}{L{10mm} p{126mm}}
 	
 	\bf 2024 & \emph{\href{http://arxiv.org/abs/2312.00139}{{tdescore: An Accurate Photometric Classifier for Tidal Disruption Events}}}\\
-	& \textsc{\textbf{*R. Stein} et al.}	ApJL, 965, L14 \\
+	& \textsc{\textbf{R. Stein} et al.}	(submitted)\\
+	&Lead author of study, which developed first accurate ML classifier for discovering TDEs using only photometric data\\
 	&\\
 	
 	\bf  &  \emph{\href{https://arxiv.org/abs/2111.09391}{Establishing accretion flares from massive black holes as a major source of high-energy neutrinos}}\\
-	& \textsc{*S. van Velzen, \textbf{R. Stein} et al.}, MNRAS, Volume 529, Issue 3\\
-	&\\
-	
-	\bf  &  \emph{{SN2023uqf: Portrait of a candidate multi-messenger supernova }}\\
-	& \textsc{\textbf{R. Stein} et al.}  (in prep.)\\ 
+	& \textsc{S. van Velzen, \textbf{R. Stein} et al.}, (submitted)\\
+	& Second author, developed likelihood analysis to test for correlations between neutrinos and probable TDE-like flares using optical-MIR emission\\
 	&\\
 	
 	\bf 2023 &\emph{\href{https://arxiv.org/abs/2203.17135}{Neutrino Follow-Up with the Zwicky Transient Facility}}\\
 	& \textsc{*\textbf{R. Stein} et al.}, MNRAS, Volume 521, Issue 4\\
-	%	&\emph{Lead author, data analysis, statistical analysis, led follow-up program}\\
+		&Lead author, data analysis, statistical analysis, led follow-up program\\
 	&\\	
 	
 	&  \emph{\href{https://arxiv.org/abs/2303.03316}{Constraining High-energy Neutrino Emission from Supernovae with IceCube}}\\
 	& {*IceCube Collaboration}, ApJL 949 L12\\
 	&- \textbf{R. Stein} as one of three credited authors\\
+	& Developed code and analysis framework, supervised lead author J Necker in completion of analysis\\
 	%	&\emph{Lead author, data analysis, statistical analysis, led follow-up program}\\
 	&\\
 	
@@ -112,27 +113,20 @@
 	\bf 2022 &
 	\emph{\href{https://arxiv.org/abs/2204.00500}{ASAS-SN follow-up of IceCube high-energy neutrino alerts}}\\
 	& \textsc{*J. Necker,  T. de Jaegar, \textbf{R. Stein} et al.}, MNRAS, Volume 516, Issue 2\\
-	%	&\emph{Data analysis, statistical analysis, development of paper}\\
+	& Data analysis, statistical analysis, development of paper\\
 	&\\	
 	
 	&\emph{\href{https://arxiv.org/abs/2111.09390}{The candidate tidal disruption event AT2019fdr coincident with a high-energy neutrino}}\\
 	& \textsc{*S. Reusch, \textbf{R.~Stein} et al.}, Phys. Rev. Lett. 128, 221101\\
-	%	&\emph{Realtime follow-up and data analysis, statistical analysis, contributed radio data}\\
+	&Second author, lead realtime follow-up and data analysis, statistical analysis, contributed radio data\\
 	&\\	
 	
 	%	&\emph{Development of statistical analysis and interpretation}\\
 	
-	\bf 2021 &
-	\emph{\href{https://arxiv.org/abs/2110.01631}{Tidal Disruption Events and High-Energy Neutrinos}}\\
-	& \textbf{R. Stein}, PoS(ICRC2021)009\\
-	%	&\emph{Presenter of invited ICRC plenary talk, author of accompanying proceedings}\\
-	&\\
-	
-	
-	&\emph{\href{https://arxiv.org/abs/2005.05340}{A tidal disruption event neutrino coincident with a high-energy neutrino}}\\
+	\bf 2021 &\emph{\href{https://arxiv.org/abs/2005.05340}{A tidal disruption event neutrino coincident with a high-energy neutrino}}\\
 	& \textsc{*\textbf{R. Stein}} et al., 2021, Nat Astron 5, 510-518
 	\\
-	%	&\emph{Developed analysis framework, led follow-up program, modelling, statistical analysis}\\
+	&Lead author, Developed analysis framework, led follow-up program, modelling, statistical analysis\\
 	&\\	
 	%	& \textsc{IceCube Collaboration},
 	%	\emph{Search for high-energy neutrinos from tidal disruption events},
@@ -147,7 +141,7 @@
 	\bf 2020 & 
 	\emph{\href{https://arxiv.org/abs/2006.11306}{Kilonova Luminosity Function Constraints based on Zwicky Transient Facility searches for 13 Neutron Star Mergers}}\\
 	& \textsc{*M. M.~Kasliwal, S. Anand, T. Ahumada \textbf{R. Stein} et al.}, ApJ, 905, 145\\
-	%	&\emph{Developed one of three analysis frameworks, realtime follow-up and data analysis}\\
+	&Developed one of three analysis frameworks, realtime follow-up and data analysis\\
 	&\\	
 	
 	%	& \textsc{*V.~Paliya} et al.,
@@ -165,27 +159,8 @@
 	\bf 2019 &
 	\emph{\href{https://arxiv.org/abs/1908.08547}{Search for Neutrinos from Populations of Optical Transients}}\\,
 	& \textsc{\textbf{R.~Stein} for the IceCube Collaboration}, PoS(ICRC2019)1016\\
-	%	&\emph{Developed likelihood analysis code, TDE catalogue compilation, data analysis}\\
+	&Developed likelihood analysis code, TDE catalogue compilation, data analysis\\
 	&\\
-\end{longtable}
-
-\section{Selected Software}
-\begin{longtable}{L{10mm} p{126mm}}
-	
-	\bf 2023 & \textsc{\textbf{R.~Stein} et al.},
-	\emph{\href{https://github.com/winter-telescope/mirar}{Mirar}} \\
-	&\emph{Photometric reduction  code, used for WINTER, SEDmV2 and DREAMS.}\\
-	&\\	
-	
-	
-	\bf 2020 & \textsc{\textbf{R.~Stein} et al.},
-	\emph{\href{https://github.com/desy-multimessenger/nuztf}{NuZTF}}, DOI: \href{https://doi.org/10.5281/zenodo.4048335}{10.5281/zenodo.4048335}\\
-	&\emph{ZTF MMA analysis code,  used for neutrino, GW and GRB searches.}\\
-	&\\	
-	
-	& \textsc{\textbf{R.~Stein} et al.},
-	\emph{\href{https://github.com/IceCubeOpenSource/flarestack}{Flarestack}}, DOI: \href{https://doi.org/10.5281/zenodo.3619383}{10.5281/zenodo.3619383}\\
-	&\emph{Likelihood analysis  code for neutrino correlation studies}\\
 \end{longtable}
 
 \end{document}
